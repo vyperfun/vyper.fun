@@ -1,0 +1,33 @@
+{
+  "name": "chat-libp2p",
+  "version": "1.0.0",
+  "description": "Yet another chat app using libp2p",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shresthagrawal.31@gmail.com",
+  "contributors": [
+    "prateek@marlin.pro"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "it-pipe": "^1.1.0",
+    "libp2p": "^0.27.6",
+    "libp2p-bootstrap": "^0.10.4",
+    "libp2p-gossipsub": "^0.3.0",
+    "libp2p-kad-dht": "^0.18.6",
+    "libp2p-mdns": "^0.13.3",
+    "libp2p-mplex": "^0.9.5",
+    "libp2p-noise": "^1.1.2",
+    "libp2p-secio": "^0.12.4",
+    "libp2p-tcp": "^0.14.4",
+    "libp2p-webrtc-star": "^0.17.9",
+    "libp2p-websockets": "^0.13.6",
+    "multiaddr": "^7.4.3",
+    "peer-info": "^0.17.5",
+    "promisify-es6": "^1.0.3",
+    "protons": "^1.0.1",
+    "wrtc": "^0.4.6"
+  }
+}
