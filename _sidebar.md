@@ -2,7 +2,6 @@
 
 - [**#1 Your First Pokemon**](1/introduction.md)
 
-  - [Pick a pokemon](1/pick_a_pokemon.md)
   - [Structure of a contract](1/contract_structure.md)
   - [Types](1/types.md)
   - [Env variables and constants](1/env_vars_and_constants.md)

@@ -1,19 +1,304 @@
 # Control Structures
 
-TODO: Add Lesson for Control Structures
+## Functions
+
+Functions are executable units of code within a contract. Functions may
+only be declared within a contract's module scope \<scoping-module\>.
+
+```python
+@external
+def bid():
+    ...
+```
+
+Functions may be called internally or externally depending on their
+visibility \<function-visibility\>. Functions may accept input arguments
+and return variables in order to pass values between them.
+
+### Visibility
+
+All functions must include exactly one visibility decorator.
+
+#### External Functions
+
+External functions (marked with the `@external` decorator) are a part of
+the contract interface and may only be called via transactions or from
+other contracts.
+
+```python
+@external
+def add_seven(a: int128) -> int128:
+    return a + 7
+```
+
+A Vyper contract cannot call directly between two external functions. If
+you must do this, you can use an interface \<interfaces\>.
+
+#### Internal Functions
+
+Internal functions (marked with the `@internal` decorator) are only
+accessible from other functions within the same contract. They are
+called via the self\<constants-self\> object:
+
+```python
+@internal
+def _times_two(amount: uint256) -> uint256:
+    return amount * 2
+
+@external
+def calculate(amount: uint256) -> uint256:
+    return self._times_two(amount)
+```
+
+Internal functions do not have access to `msg.sender` or `msg.value`. If
+you require these values within an internal function you must pass them
+as parameters.
+
+### Mutability
+
+You can optionally declare a function's mutability by using a
+decorator \<function-decorators\>. There are four mutability levels:
+
+> - **Pure**: does not read from the contract state or any environment
+>   variables.
+> - **View**: may read from the contract state, but does not alter it.
+> - **Nonpayable**: may read from and write to the contract state, but
+>   cannot receive Ether.
+> - **Payable**: may read from and write to the contract state, and
+>   can receive Ether.
+
+```python
+@view
+@external
+def readonly():
+    # this function cannot write to state
+    ...
+
+@payable
+@external
+def send_me_money():
+    # this function can receive ether
+    ...
+```
+
+Functions default to nonpayable when no mutability decorator is used.
+
+### Re-entrancy Locks
+
+The `@nonreentrant(<key>)` decorator places a lock on a function, and
+all functions with the same `<key>` value. An attempt by an external
+contract to call back into any of these functions causes the transaction
+to revert.
+
+```python
+@external
+@nonreentrant("lock")
+def make_a_call(_addr: address):
+    # this function is protected from re-entrancy
+    ...
+```
+
+### The \_\_default\_\_ Function
+
+A contract can also have a default function, which is executed on a call
+to the contract if no other functions match the given function
+identifier (or if none was supplied at all, such as through someone
+sending it Eth). It is the same construct as fallback functions [in
+Solidity](https://solidity.readthedocs.io/en/latest/contracts.html?highlight=fallback#fallback-function).
+
+This function is always named `__default__`. It must be annotated with
+`@external`. It cannot expect any input arguments and cannot return any
+values.
+
+If the function is annotated as `@payable`, this function is executed
+whenever the contract is sent Ether (without data). This is why the
+default function cannot accept arguments and return values - it is a
+design decision of Ethereum to make no differentiation between sending
+ether to a contract or a user address.
+
+```python
+event Payment:
+    amount: int128
+    sender: indexed(address)
+
+@external
+@payable
+def __default__():
+    log Payment(msg.value, msg.sender)
+```
+
+#### Considerations
+
+Just as in Solidity, Vyper generates a default function if one isn't
+found, in the form of a `REVERT` call. Note that this still [generates
+an exception](https://github.com/ethereum/wiki/wiki/Subtleties) and thus
+will not succeed in receiving funds.
+
+Ethereum specifies that the operations will be rolled back if the
+contract runs out of gas in execution. `send` calls to the contract come
+with a free stipend of 2300 gas, which does not leave much room to
+perform other operations except basic logging. **However**, if the
+sender includes a higher gas amount through a `call` instead of `send`,
+then more complex functionality can be run.
+
+It is considered a best practice to ensure your payable default function
+is compatible with this stipend. The following operations will consume
+more than 2300 gas:
+
+> - Writing to storage
+> - Creating a contract
+> - Calling an external function which consumes a large amount of gas
+> - Sending Ether
+
+Lastly, although the default function receives no arguments, it can
+still access the `msg` object, including:
+
+> - the address of who is interacting with the contract (`msg.sender`)
+> - the amount of ETH sent (`msg.value`)
+> - the gas provided (`msg.gas`).
+
+### The \_\_init\_\_ Function
+
+`__init__` is a special initialization function that may only be called
+at the time of deploying a contract. It can be used to set initial
+values for storage variables. A common use case is to set an `owner`
+variable with the creator the contract:
+
+```python
+owner: address
+
+def __init__():
+    self.owner = msg.sender
+```
+
+You cannot call to other contract functions from the initialization
+function.
+
+### Decorators Reference
+
+All functions must include one visibility \<function-visibility\>
+decorator (`@external` or `@internal`). The remaining decorators are
+optional.
+
+Decorator Description
+
+---
+
+`@external` Function can only be called externally
+`@internal` Function can only be called within current contract
+`@pure` Function does read contract state or environment variables
+`@view` Function does not alter contract state
+`@payable` Function is able to receive Ether
+`@nonreentrant(<unique_key>)` Function cannot be called back into during an external call
+
+## `if` statements
+
+The `if` statement is a control flow construct used for conditional
+execution:
+
+```python
+if CONDITION:
+    ...
+```
+
+`CONDITION` is a boolean or boolean operation. The boolean is evaluated
+left-to-right, one expression at a time, until the condition is found to
+be true or false. If true, the logic in the body of the `if` statement
+is executed.
+
+Note that unlike Python, Vyper does not allow implicit conversion from
+non-boolean types within the condition of an `if` statement.
+`if 1: pass` will fail to compile with a type mismatch.
+
+You can also include `elif` and `else` statements, to add more
+conditional statements and a body that executes when the conditionals
+are false:
+
+```python
+if CONDITION:
+    ...
+elif OTHER_CONDITION:
+    ...
+else:
+    ...
+```
+
+## `for` loops
+
+The `for` statement is a control flow construct used to iterate over a
+value:
+
+```python
+for i in <ITERABLE>:
+    ...
+```
+
+The iterated value can be a static array, or generated from the builtin
+`range` function.
+
+### Array Iteration
+
+You can use `for` to iterate through the values of any array variable:
+
+```python
+foo: int128[3] = [4, 23, 42]
+for i in foo:
+    ...
+```
+
+In the above, example, the loop executes three times with `i` assigned
+the values of `4`, `23`, and then `42`.
+
+You can also iterate over a literal array, as long as a common type can
+be determined for each item in the array:
+
+```python
+for i in [4, 23, 42]:
+    ...
+```
+
+Some restrictions:
+
+- You cannot iterate over a multi-dimensional array. `i` must always
+  be a base type.
+- You cannot modify a value in an array while it is being iterated, or
+  call to a function that might modify the array being iterated.
+
+### Range Iteration
+
+Ranges are created using the `range` function. The following examples
+are valid uses of `range`:
+
+```python
+for i in range(STOP):
+    ...
+```
+
+`STOP` is a literal integer greater than zero. `i` begins as zero and
+increments by one until it is equal to `STOP`.
+
+```python
+for i in range(start, stop):
+    ...
+```
+
+`START` and `STOP` are literal integers, with `STOP` being a greater
+value than `START`. `i` begins as `START` and increments by one until it
+is equal to `STOP`.
+
+```python
+for i in range(a, a + N):
+    ...
+```
+
+`a` is a variable with an integer type and `N` is a literal integer
+greater than zero. `i` begins as `a` and increments by one until it is
+equal to `a + N`.
 
 <!-- tabs:start -->
 
 #### ** Template **
 
-[embedded-code](../assets/1/1.1-template-code.vy ":include :type=code embed-template")
-
-#### ** Solution **
-
-[embedded-code-final](../assets/1/1.1-finished-code.vy ":include :type=code embed-final")
-
-#### ** Previous Chapter Solution **
-
-[embedded-code-previous](../assets/1/1.0-finished-code.vy ":include :type=code embed-previous")
+[embedded-code](../assets/1/1.1-template-code.vy ':include :type=code embed-template')
 
 <!-- tabs:end -->
