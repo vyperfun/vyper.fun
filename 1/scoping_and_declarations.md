@@ -3,7 +3,7 @@
 ## Variable Declaration
 
 The first time a variable is referenced you must declare it's
-type \<types\>:
+[type](https://vyper.readthedocs.io/en/stable/types.html#types):
 
 ```python
 data: int128

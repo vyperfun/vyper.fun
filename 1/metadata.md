@@ -49,17 +49,15 @@ def doesEat(food: string[30], qty: uint256) -> bool:
 All tags are optional. The following table explains the purpose of each
 NatSpec tag and where it may be used:
 
-Tag Description Context
-
----
-
-`@title` Title that describes the contract contract
-`@licence` License of the contract contract
-`@author` Name of the author contract, function
-`@notice` Explain to an end user what this does contract, function
-`@dev` Explain to a developer any extra details contract, function
-`@param` Documents a single parameter function
-`@return` Documents one or all return variable(s) function
+| Tag        | Description                              | Context            |
+| ---------- | ---------------------------------------- | ------------------ |
+| `@title`   | Title that describes the contract        | contract           |
+| `@licence` | License of the contract                  | contract           |
+| `@author`  | Name of the author                       | contract, function |
+| `@notice`  | Explain to an end user what this does    | contract, function |
+| `@dev`     | Explain to a developer any extra details | contract, function |
+| `@param`   | Documents a single parameter             | function           |
+| `@return`  | Documents one or all return variable(s)  | function           |
 
 Some rules / restrictions:
 
@@ -69,11 +67,11 @@ Some rules / restrictions:
     as a `@notice`.
 3.  Each use of `@param` must be followed by the name of an input
     argument. Including invalid or duplicate argument names raises a
-    NatSpecSyntaxException\<NatSpecSyntaxException\>.
+    [`NatSpecSyntaxException`](https://vyper.readthedocs.io/en/stable/compiler-exceptions.html#NatSpecSyntaxException).
 4.  The preferred use of `@return` is one entry for each output value,
     however you may also use it once for all outputs. Including more
     `@return` values than output values raises a
-    NatSpecSyntaxException\<NatSpecSyntaxException\>.
+    [`NatSpecSyntaxException`](https://vyper.readthedocs.io/en/stable/compiler-exceptions.html#NatSpecSyntaxException).
 
 ## Documentation Output
 

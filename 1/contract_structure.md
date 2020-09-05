@@ -24,20 +24,19 @@ In the above example, the contract only compiles with Vyper versions
 
 State variables are values which are permanently stored in contract
 storage. They are declared outside of the body of any functions, and
-initially contain the default value\<types-initial\> for their type.
+initially contain the [default value](https://vyper.readthedocs.io/en/stable/types.html#types-initial) for their type.
 
 ```python
 storedData: int128
 ```
 
-State variables are accessed via the self\<constants-self\> object.
+State variables are accessed via the [self](https://vyper.readthedocs.io/en/stable/constants-and-vars.html#constants-self) object.
 
 ```python
 self.storedData = 123
 ```
 
-See the documentation on Types \<types\> or [Scoping and
-Declarations](scoping) for more information.
+See the documentation on [Types](https://vyper.readthedocs.io/en/stable/types.html#types) or [Scoping and Declarations](https://vyper.readthedocs.io/en/stable/scoping) for more information.
 
 ## Functions
 
@@ -49,12 +48,9 @@ def bid():
     ...
 ```
 
-Functions may be called internally or externally depending on their
-visibility \<function-visibility\>. Functions may accept input arguments
-and return variables in order to pass values between them.
+Functions may be called internally or externally depending on their [visibility](https://vyper.readthedocs.io/en/stable/control-structures.html#function-visibility). Functions may accept input arguments and return variables in order to pass values between them.
 
-See the Functions \<control-structures-functions\> documentation for
-more information.
+See the [Functions](https://vyper.readthedocs.io/en/stable/control-structures.html#control-structures-functions) documentation for more information.
 
 ## Events
 
@@ -76,7 +72,7 @@ def pay():
     log Payment(msg.value, msg.sender)
 ```
 
-See the Event \<event-logging\> documentation for more information.
+See the [Event](https://vyper.readthedocs.io/en/stable/event-logging.html#event-logging) documentation for more information.
 
 ## Interfaces
 
@@ -107,7 +103,7 @@ def test(some_address: address):
     FooBar(some_address).calculate()
 ```
 
-See the Interfaces \<interfaces\> documentation for more information.
+See the [Interfaces](https://vyper.readthedocs.io/en/stable/interfaces.html#interfaces) documentation for more information.
 
 ## Structs
 
@@ -120,7 +116,7 @@ struct MyStruct:
     value2: decimal
 ```
 
-See the Structs \<types-struct\> documentation for more information.
+See the [Structs](https://vyper.readthedocs.io/en/stable/types.html#types-struct) documentation for more information.
 
 <!-- tabs:start -->
 

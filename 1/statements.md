@@ -75,7 +75,7 @@ log MyEvent(...)
 
 The event must have been previously declared
 
-See Event Logging\<event-logging\> for more information on events.
+See [Event Logging](https://vyper.readthedocs.io/en/stable/event-logging.html#event-logging) for more information on events.
 
 ## Assertions and Exceptions
 

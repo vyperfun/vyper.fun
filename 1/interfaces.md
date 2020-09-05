@@ -167,9 +167,7 @@ from vyper.interfaces import ERC20
 implements: ERC20
 ```
 
-You can see all the available built-in interfaces in the [Vyper
-GitHub](https://github.com/vyperlang/vyper/tree/master/vyper/interfaces)
-repo.
+You can see all the available built-in interfaces in the [Vyper GitHub](https://github.com/vyperlang/vyper/tree/master/vyper/interfaces) repo.
 
 ## Implementing an Interface
 

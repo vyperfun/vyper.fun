@@ -4,9 +4,7 @@ Vyper can log events to be caught and displayed by user interfaces.
 
 ## Example of Logging
 
-This example is taken from the [sample ERC20
-contract](https://github.com/vyperlang/vyper/blob/master/examples/tokens/ERC20.vy)
-and shows the basic flow of event logging:
+This example is taken from the [sample ERC20 contract](https://github.com/vyperlang/vyper/blob/master/examples/tokens/ERC20.vy) and shows the basic flow of event logging:
 
 ```python
 # Events of the token.
@@ -115,14 +113,7 @@ used when declaring the event..
 
 ## Listening for Events
 
-In the example listener above, the `result` arg actually passes a [large
-amount of
-information](https://web3js.readthedocs.io/en/v1.2.6/web3-eth-contract.html#contract-events-return).
-Here we're most interested in `result.returnValues`. This is an object
-with properties that match the properties declared in the event. Note
-that this object does not contain the indexed properties, which can only
-be searched in the original `myToken.Transfer` that created the
-callback.
+In the example listener above, the `result` arg actually passes a [large amount of information](https://web3js.readthedocs.io/en/v1.2.6/web3-eth-contract.html#contract-events-return). Here we're most interested in `result.returnValues`. This is an object with properties that match the properties declared in the event. Note that this object does not contain the indexed properties, which can only be searched in the original `myToken.Transfer` that created the callback.
 
 <!-- tabs:start -->
 

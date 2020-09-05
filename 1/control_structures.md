@@ -3,7 +3,7 @@
 ## Functions
 
 Functions are executable units of code within a contract. Functions may
-only be declared within a contract's module scope \<scoping-module\>.
+only be declared within a contract's [module scope](https://vyper.readthedocs.io/en/stable/scoping-and-declarations.html#scoping-module).
 
 ```python
 @external
@@ -12,7 +12,7 @@ def bid():
 ```
 
 Functions may be called internally or externally depending on their
-visibility \<function-visibility\>. Functions may accept input arguments
+[visibility](https://vyper.readthedocs.io/en/stable/control-structures.html#function-visibility). Functions may accept input arguments
 and return variables in order to pass values between them.
 
 ### Visibility
@@ -32,13 +32,13 @@ def add_seven(a: int128) -> int128:
 ```
 
 A Vyper contract cannot call directly between two external functions. If
-you must do this, you can use an interface \<interfaces\>.
+you must do this, you can use an [interface](https://vyper.readthedocs.io/en/stable/interfaces.html#interfaces).
 
 #### Internal Functions
 
 Internal functions (marked with the `@internal` decorator) are only
 accessible from other functions within the same contract. They are
-called via the self\<constants-self\> object:
+called via the [self](https://vyper.readthedocs.io/en/stable/constants-and-vars.html#constants-self) object:
 
 ```python
 @internal
@@ -57,7 +57,7 @@ as parameters.
 ### Mutability
 
 You can optionally declare a function's mutability by using a
-decorator \<function-decorators\>. There are four mutability levels:
+[decorator](https://vyper.readthedocs.io/en/stable/control-structures.html#function-decorators). There are four mutability levels:
 
 > - **Pure**: does not read from the contract state or any environment
 >   variables.
@@ -103,8 +103,7 @@ def make_a_call(_addr: address):
 A contract can also have a default function, which is executed on a call
 to the contract if no other functions match the given function
 identifier (or if none was supplied at all, such as through someone
-sending it Eth). It is the same construct as fallback functions [in
-Solidity](https://solidity.readthedocs.io/en/latest/contracts.html?highlight=fallback#fallback-function).
+sending it Eth). It is the same construct as fallback functions [in Solidity](https://solidity.readthedocs.io/en/latest/contracts.html?highlight=fallback#fallback-function).
 
 This function is always named `__default__`. It must be annotated with
 `@external`. It cannot expect any input arguments and cannot return any
@@ -130,8 +129,7 @@ def __default__():
 #### Considerations
 
 Just as in Solidity, Vyper generates a default function if one isn't
-found, in the form of a `REVERT` call. Note that this still [generates
-an exception](https://github.com/ethereum/wiki/wiki/Subtleties) and thus
+found, in the form of a `REVERT` call. Note that this still [generates an exception](https://github.com/ethereum/wiki/wiki/Subtleties) and thus
 will not succeed in receiving funds.
 
 Ethereum specifies that the operations will be rolled back if the
@@ -176,7 +174,7 @@ function.
 
 ### Decorators Reference
 
-All functions must include one visibility \<function-visibility\>
+All functions must include one [visibility](https://vyper.readthedocs.io/en/stable/control-structures.html#function-visibility)
 decorator (`@external` or `@internal`). The remaining decorators are
 optional.
 
