@@ -26,15 +26,13 @@ The only possible values are the constants `True` and `False`.
 
 #### Operators
 
-Operator Description
-
----
-
-`x not y` Logical negation
-`x and y` Logical conjunction
-`x or y` Logical disjunction
-`x == y` Equality
-`x != y` Inequality
+| Operator  | Description         |
+| --------- | ------------------- |
+| `x not y` | Logical negation    |
+| `x and y` | Logical conjunction |
+| `x or y`  | Logical disjunction |
+| `x == y`  | Equality            |
+| `x != y`  | Inequality          |
 
 Short-circuiting of boolean operators (`or` and `and`) is consistent
 with the behavior of Python.
@@ -59,32 +57,28 @@ is zero. For example, `2.0` cannot be interpreted as an integer.
 
 Comparisons return a boolean value.
 
-Operator Description
-
----
-
-`x < y` Less than
-`x <= y` Less than or equal to
-`x == y` Equals
-`x != y` Does not equal
-`x >= y` Greater than or equal to
-`x > y` Greater than
+| Operator | Description              |
+| -------- | ------------------------ |
+| `x < y`  | Less than                |
+| `x <= y` | Less than or equal to    |
+| `x == y` | Equals                   |
+| `x != y` | Does not equal           |
+| `x >= y` | Greater than or equal to |
+| `x > y`  | Greater than             |
 
 `x` and `y` must be of the type `int128`.
 
 ##### Arithmetic Operators
 
-Operator Description
-
----
-
-`x + y` Addition
-`x - y` Subtraction
-`-x` Unary minus/Negation
-`x * y` Multiplication
-`x / y` Division
-`x**y` Exponentiation
-`x % y` Modulo
+| Operator | Description          |
+| -------- | -------------------- |
+| `x + y`  | Addition             |
+| `x - y`  | Subtraction          |
+| `-x`     | Unary minus/Negation |
+| `x * y`  | Multiplication       |
+| `x / y`  | Division             |
+| `x**y`   | Exponentiation       |
+| `x % y`  | Modulo               |
 
 `x` and `y` must be of the type `int128`.
 
@@ -115,31 +109,27 @@ is zero. For example, `2.0` cannot be interpreted as an integer.
 
 Comparisons return a boolean value.
 
-Operator Description
-
----
-
-`x < y` Less than
-`x <= y` Less than or equal to
-`x == y` Equals
-`x != y` Does not equal
-`x >= y` Greater than or equal to
-`x > y` Greater than
+| Operator | Description              |
+| -------- | ------------------------ |
+| `x < y`  | Less than                |
+| `x <= y` | Less than or equal to    |
+| `x == y` | Equals                   |
+| `x != y` | Does not equal           |
+| `x >= y` | Greater than or equal to |
+| `x > y`  | Greater than             |
 
 `x` and `y` must be of the type `uint256`.
 
 ##### Arithmetic Operators
 
-Operator Description
-
----
-
-`x + y` Addition
-`x - y` Subtraction
-`x * y` Multiplication
-`x / y` Division
-`x**y` Exponentiation
-`x % y` Modulo
+| Operator | Description    |
+| -------- | -------------- |
+| `x + y`  | Addition       |
+| `x - y`  | Subtraction    |
+| `x * y`  | Multiplication |
+| `x / y`  | Division       |
+| `x**y`   | Exponentiation |
+| `x % y`  | Modulo         |
 
 `x`, `y` and `z` must be of the type `uint256`.
 
@@ -163,31 +153,27 @@ decimal point.
 
 Comparisons return a boolean value.
 
-Operator Description
-
----
-
-`x < y` Less than
-`x <= y` Less or equal
-`x == y` Equals
-`x != y` Does not equal
-`x >= y` Greater or equal
-`x > y` Greater than
+| Operator | Description      |
+| -------- | ---------------- |
+| `x < y`  | Less than        |
+| `x <= y` | Less or equal    |
+| `x == y` | Equals           |
+| `x != y` | Does not equal   |
+| `x >= y` | Greater or equal |
+| `x > y`  | Greater than     |
 
 `x` and `y` must be of the type `decimal`.
 
 ##### Arithmetic Operators
 
-Operator Description
-
----
-
-`x + y` Addition
-`x - y` Subtraction
-`-x` Unary minus/Negation
-`x * y` Multiplication
-`x / y` Division
-`x % y` Modulo
+| Operator | Description          |
+| -------- | -------------------- |
+| `x + y`  | Addition             |
+| `x - y`  | Subtraction          |
+| `-x`     | Unary minus/Negation |
+| `x * y`  | Multiplication       |
+| `x / y`  | Division             |
+| `x % y`  | Modulo               |
 
 `x` and `y` must be of the type `decimal`.
 
@@ -206,14 +192,12 @@ with a leading `0x` and must be
 
 ##### Members
 
-Member Type Description
-
----
-
-`balance` `uint256` Balance of an address
-`codehash` `bytes32` Keccak of code at an address, `EMPTY_BYTES32` if no contract is deployed
-`codesize` `uint256` Size of code deployed an address, in bytes
-`is_contract` `bool` Boolean indicating if a contract is deployed at an address
+| Member        | Type      | Description                                                              |
+| ------------- | --------- | ------------------------------------------------------------------------ |
+| `balance`     | `uint256` | Balance of an address                                                    |
+| `codehash`    | `bytes32` | Keccak of code at an address, `EMPTY_BYTES32` if no contract is deployed |
+| `codesize`    | `uint256` | Size of code deployed an address, in bytes                               |
+| `is_contract` | `bool`    | Boolean indicating if a contract is deployed at an address               |
 
 Syntax as follows: `_address.<member>`, where `_address` is of the type
 `address` and `<member>` is one of the above keywords.
@@ -238,13 +222,11 @@ otherwise similar to byte arrays.
 
 #### Operators
 
-Keyword Description
-
----
-
-`keccak256(x)` Return the keccak256 hash as bytes32.
-`concat(x, ...)` Concatenate multiple inputs.
-`slice(x, start=_start, len=_len)` Return a slice of `_len` starting at `_start`.
+| Keyword                            | Description                                    |
+| ---------------------------------- | ---------------------------------------------- |
+| `keccak256(x)`                     | Return the keccak256 hash as bytes32.          |
+| `concat(x, ...)`                   | Concatenate multiple inputs.                   |
+| `slice(x, start=_start, len=_len)` | Return a slice of `_len` starting at `_start`. |
 
 Where `x` is a byte array and `_start` as well as `_len` are integer
 values.
@@ -377,16 +359,14 @@ To reset a variable to it's default value, assign to it the built-in
 
 Here you can find a list of all types and default values:
 
-Type Default Value
-
----
-
-`address` `0x0000000000000000000000000000000000000000`
-`bool` `False`
-`bytes32` `0x0000000000000000000000000000000000000000000000000000000000000000`
-`decimal` `0.0`
-`int128` `1`
-`uint256` `1`
+| Type      | Default Value                                                        |
+| --------- | -------------------------------------------------------------------- |
+| `address` | `0x0000000000000000000000000000000000000000`                         |
+| `bool`    | `False`                                                              |
+| `bytes32` | `0x0000000000000000000000000000000000000000000000000000000000000000` |
+| `decimal` | `0.0`                                                                |
+| `int128`  | `1`                                                                  |
+| `uint256` | `1`                                                                  |
 
 > **note**
 >
@@ -403,35 +383,33 @@ All type conversions in Vyper must be made explicitly using the built-in
 `convert(a: atype, btype)` function. Currently, the following type
 conversions are supported:
 
-In (`atype`) Out (`btype`) Allowable Values Additional Notes
-
----
-
-`bool` `decimal` All `0.0` or `1.0`
-`bool` `int128` All `0` or `1`
-`bool` `uint256` All `0` or `1`
-`bool` `bytes32` All `0x00` or `0x01`
-`bool` `Bytes` All  
- `decimal` `bool` All Returns `a != 0.0`
-`decimal` `int128` All Value is truncated
-`decimal` `uint256` `a >= 0.0` Value is truncated
-`decimal` `bytes32` All  
- `decimal` `Bytes` All  
- `int128` `bool` All Returns `a != 0`
-`int128` `decimal` All  
- `int128` `uint256` `a >= 0` Cannot convert negative values
-`int128` `bytes32` All  
- `int128` `Bytes` All  
- `uint256` `bool` All Returns `a != 0`
-`uint256` `decimal` `a <= MAX_DECIMAL`  
- `uint256` `int128` `a <= MAX_INT128`  
- `uint256` `bytes32` All  
- `uint256` `Bytes` All  
- `bytes32` `bool` All `True` if `a` is not empty
-`bytes32` `decimal` All  
- `bytes32` `int128` All  
- `bytes32` `uint256` All  
- `bytes32` `Bytes` All
+| In (`atype`) | Out (`btype`) | Allowable Values   | Additional Notes               |
+| ------------ | ------------- | ------------------ | ------------------------------ |
+| `bool`       | `decimal`     | All                | `0.0` or `1.0`                 |
+| `bool`       | `int128`      | All                | `0` or `1`                     |
+| `bool`       | `uint256`     | All                | `0` or `1`                     |
+| `bool`       | `bytes32`     | All                | `0x00` or `0x01`               |
+| `bool`       | `Bytes`       | All                |                                |
+| `decimal`    | `bool`        | All                | Returns `a != 0.0`             |
+| `decimal`    | `int128`      | All                | Value is truncated             |
+| `decimal`    | `uint256`     | `a >= 0.0`         | Value is truncated             |
+| `decimal`    | `bytes32`     | All                |                                |
+| `decimal`    | `Bytes`       | All                |                                |
+| `int128`     | `bool`        | All                | Returns `a != 0`               |
+| `int128`     | `decimal`     | All                |                                |
+| `int128`     | `uint256`     | `a >= 0`           | Cannot convert negative values |
+| `int128`     | `bytes32`     | All                |                                |
+| `int128`     | `Bytes`       | All                |                                |
+| `uint256`    | `bool`        | All                | Returns `a != 0`               |
+| `uint256`    | `decimal`     | `a <= MAX_DECIMAL` |                                |
+| `uint256`    | `int128`      | `a <= MAX_INT128`  |                                |
+| `uint256`    | `bytes32`     | All                |                                |
+| `uint256`    | `Bytes`       | All                |                                |
+| `bytes32`    | `bool`        | All                | `True` if `a` is not empty     |
+| `bytes32`    | `decimal`     | All                |                                |
+| `bytes32`    | `int128`      | All                |                                |
+| `bytes32`    | `uint256`     | All                |                                |
+| `bytes32`    | `Bytes`       | All                |                                |
 
 <!-- tabs:start -->
 
