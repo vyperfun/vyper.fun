@@ -2,6 +2,7 @@
 
 DNA_DIGITS: constant(uint256) = 16
 DNA_MODULUS: constant(uint256) = 10 ** DNA_DIGITS
+# add HP_LIMIT
 
 struct Pokemon:
     name: String[32]
@@ -18,7 +19,7 @@ pokemonList: HashMap[uint256, Pokemon]
 def _generateRandomDNA(_name: String[32]) -> uint256:
     random: uint256 = convert(keccak256(_name), uint256)
     return random % DNA_MODULUS
-
+# modify _createPokemon
 @internal
 def _createPokemon(_name: String[32], _dna: uint256, _HP: uint256):
     self.pokemonList[self.totalPokemonCount] = Pokemon({
