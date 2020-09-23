@@ -6,10 +6,10 @@ struct Pokemon:
     HP: uint256
     matches: uint256
     wins: uint256
-    
+
 DNA_DIGITS: constant(uint256) = 16
 DNA_MODULUS: constant(uint256) = 10 ** DNA_DIGITS
-HP_LIMIT: constant(uint256) = 1000 
+HP_LIMIT: constant(uint256) = 1000
 NAME_MODULUS: constant(uint256) = 20
 
 battleCount: uint256
@@ -43,19 +43,3 @@ def __init__():
 def _generateRandomDNA() -> uint256:
     random: uint256 = convert(keccak256(convert(self.battleCount, bytes32)), uint256)
     return random % DNA_MODULUS
-
-@external
-def battle(pokemon: Pokemon) -> (bool, String[32], uint256, uint256):
-
-    randomDNA: uint256 = self._generateRandomDNA()
-
-    randomName: String[32] = self.pokemonNames[randomDNA%NAME_MODULUS]
-    
-    randomHP: uint256 = randomDNA % HP_LIMIT
-
-    self.battleCount += 1
-
-    if(pokemon.HP > randomHP):
-        return True, randomName, randomDNA, randomHP
-    else:
-        return False, empty(String[32]), empty(uint256), empty(uint256)

@@ -28,3 +28,4 @@ def _createPokemon(_name: String[32], _dna: uint256, _HP: uint256):
         matches: 0,
         wins: 0
     })
+    self.totalPokemonCount += 1

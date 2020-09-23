@@ -11,10 +11,14 @@ struct Pokemon:
     matches: uint256
     wins: uint256
 
+# Create Trainer struct here
+
 totalPokemonCount: public(uint256)
 pokemonList: HashMap[uint256, Pokemon]
 
-event NewPokemon:
+# Create mappings here
+
+event NewPokemonCreated:
     name: String[32]
     dna: uint256
     HP: uint256
@@ -43,6 +47,6 @@ def _createPokemon(_name: String[32]) -> Pokemon:
     self.pokemonList[self.totalPokemonCount] = newPokemon
     self.totalPokemonCount += 1
 
-    log NewPokemon(_name, randomDNA, randomHP)
+    log NewPokemonCreated(_name, randomDNA, randomHP)
 
     return newPokemon

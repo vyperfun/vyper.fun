@@ -45,8 +45,9 @@ def getAge(String[64] name) -> uint256:
 We want to create an `internal` function which does not read or alter the contract state or environment variables (meaning a `pure` function) which returns a `uint256`.
 
 1. Create an function named `_generateRandomDNA` with internal and pure function decorators.
-2. The function returns a `uint256` type.
-3. Use the `pass` keyword to define an empty function body.
+2. The function should accept an input parameter: `_name` of type `String[32]`.
+3. The function returns a `uint256` type.
+4. Use the `pass` keyword to define an empty function body.
 
 <!-- tabs:start -->
 

@@ -14,6 +14,6 @@
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/1/12.0-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../assets/2/2.0-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->

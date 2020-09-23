@@ -16,11 +16,9 @@ We're close to being done with our random Pokemon generator! Let's do a few chan
 
 6. Inside `_createPokemon`, populate `pokemonList` using the key `totalPokemonCount` and value as `newPokemon`. Remember to use `self` environment variable to access the storage variables.
 
-7. Inside `_createPokemon`, increase the `totalPokemonCount` by 1 after populating the `pokemonList`.
+7. Modify the `_createPokemon` function declaration so that it returns a `Pokemon`.
 
-8. Modify the `_createPokemon` function declaration so that it returns a `Pokemon`.
-
-9. At the end of the `_createPokemon` function, return `newPokemon`.
+8. At the end of the `_createPokemon` function, return `newPokemon`.
 
 <!-- tabs:start -->
 

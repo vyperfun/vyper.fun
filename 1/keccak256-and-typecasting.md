@@ -2,7 +2,7 @@
 
 We want our `_generateRandomDna` function to return a (semi) random `uint256`. How can we accomplish this?
 
-Ethereum has the [hash function](https://en.wikipedia.org/wiki/Hash_function) `keccak256` built in, which is a version of SHA3. A hash function basically maps an input into a random 256-bit hexidecimal number. A slight change in the input will cause a large change in the hash.
+Ethereum has the [hash function](https://en.wikipedia.org/wiki/Hash_function) `keccak256` built in, which is a version of SHA3. A hash function basically maps an input into a random 256-bit hexadecimal number. A slight change in the input will cause a large change in the hash.
 
 It's useful for many purposes in Ethereum, but for right now we're just going to use it for pseudo-random number generation.
 
@@ -28,19 +28,19 @@ Sometimes you need to convert between data types. Take the following example:
 
 ```vyper
 a: uint256 = 10
-b: int128 = -10
+b: int128 = 10
 
 # The following operation will throw error
-# as a * b is -100 which is a negetive integer
+# as a and b have different types.
 # hence it cannot be a uint256
-c: uint256 = a * b
+c: int128 = a * b
 
-# converting b from int128 to uint256 will
+# converting a from uint256 to int128 will
 # remove this error
-c: uint256 = a * convert(b, uint256)
+c: int128 = convert(a, int128) * b
 ```
 
-Here we mitigated the error by converting `b` from `int128` to `uint256`, turning `-10` to `10`. The resultant product `a * b` is now a non-negetive integer (`100`).
+Here we mitigated the error by converting `a` from `uint256` to `int128`.
 
 All type conversions in Vyper must be made explicitly using the built-in `convert(a: atype, btype)` function. Here is the list of [supported type converstions](https://vyper.readthedocs.io/en/stable/types.html#type-conversions).
 

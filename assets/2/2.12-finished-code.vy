@@ -22,12 +22,12 @@ trainerToPokemon: HashMap[address, HashMap[uint256, Pokemon]]
 ownerPokemonCount: HashMap[address, uint256]
 totalPokemonCount: public(uint256)
 
-event NewPokemon:
+event NewPokemonCreated:
     name: String[32]
     dna: uint256
     HP: uint256
 
-event NewTrainer:
+event NewTrainerCreated:
     name: String[32]
 
 
@@ -65,7 +65,7 @@ def battleWildPokemon(pokemonIndex: uint256):
         self.trainerToPokemon[msg.sender][self.ownerPokemonCount[msg.sender]] = newPokemon
         self.ownerPokemonCount[msg.sender] += 1
 
-        log NewPokemon(newPokemonName, newPokemonDNA, newPokemonHP)
+        log NewPokemonCreated(newPokemonName, newPokemonDNA, newPokemonHP)
 
     else:
         self.trainerToPokemon[msg.sender][pokemonIndex].matches +=1
@@ -93,7 +93,7 @@ def _createPokemon(name: String[32]) -> Pokemon:
     self.pokemonList[self.totalPokemonCount] = newPokemon
     self.totalPokemonCount += 1
 
-    log NewPokemon(name, randomDNA, randomHP)
+    log NewPokemonCreated(name, randomDNA, randomHP)
 
     return newPokemon
 
@@ -112,7 +112,7 @@ def createTrainer(trainerName: String[32], pokemonName: String[32]):
     self.trainerToPokemon[msg.sender][self.ownerPokemonCount[msg.sender]] = newPokemon
     self.ownerPokemonCount[msg.sender] += 1
 
-    log NewTrainer(trainerName)
+    log NewTrainerCreated(trainerName)
 
 @view
 @external

@@ -16,6 +16,15 @@ We need a public storage variable that tracks the number of pokemons created in 
 1. Create a `public` storage variable named `totalPokemonCount` of type `uint256`.
 2. Replace the key `0` in the mapping `pokemonList` in the function `_createPokemon` with
    the storage variable `totalPokemonCount`. Remember to use the `self` environment variable to access the storage variable from the function.
+3. In the `_createPokemon` function, increment `totalPokemonCount` by 1 using the `self` environment variable. To make the code look clean use the `+=` arithmetic operator as shown below:
+
+```vyper
+# adds 1 to the parameter passed
+@external
+def addOne(uint256 number):
+   # we used += to increment number by 1
+   number += 1
+```
 
 <!-- tabs:start -->
 

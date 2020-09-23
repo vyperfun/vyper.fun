@@ -6,10 +6,10 @@ struct Pokemon:
     HP: uint256
     matches: uint256
     wins: uint256
-    
+
 DNA_DIGITS: constant(uint256) = 16
 DNA_MODULUS: constant(uint256) = 10 ** DNA_DIGITS
-HP_LIMIT: constant(uint256) = 1000 
+HP_LIMIT: constant(uint256) = 1000
 NAME_MODULUS: constant(uint256) = 20
 
 battleCount: uint256
@@ -57,5 +57,3 @@ def battle(pokemon: Pokemon) -> (bool, String[32], uint256, uint256):
 
     if(pokemon.HP > randomHP):
         return True, randomName, randomDNA, randomHP
-    else:
-        return False, empty(String[32]), empty(uint256), empty(uint256)
