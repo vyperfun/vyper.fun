@@ -26,7 +26,7 @@ There's also an `int128` (128 bit) data type for signed integers (a type to stor
 ```vyper
 # @version >=0.2.4 <0.3.0
 
-# This creates a contant uint256 with a value of 16
+# This creates a constant uint256 with a value of 16
 TEN: constant(uint256) = 10
 ```
 

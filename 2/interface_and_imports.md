@@ -1,4 +1,4 @@
-# Chapter 8: Interfaces and Import Statement
+# Chapter 8: Interfaces and Imports
 
 ## Put it to the test
 

@@ -81,7 +81,7 @@ window.$docsify.plugins.push(function (hook, vm) {
 
       if (window.code_template) {
         var template_button = document.createElement('button');
-        template_button.innerHTML = '&#x1F6E0; Starting Point';
+        template_button.innerHTML = '&#x1F6E0; Your code';
         template_button.classList += 'editor-button';
         template_button.id = 'editor-template-button';
         template_button.onclick = function () {
@@ -105,7 +105,7 @@ window.$docsify.plugins.push(function (hook, vm) {
 
       if (window.code_final) {
         var final_button = document.createElement('button');
-        final_button.innerHTML = '&#x2705; Potential Solution';
+        final_button.innerHTML = '&#x2705; Solution';
         final_button.classList += 'editor-button';
         final_button.id = 'editor-final-button';
         final_button.onclick = function () {
@@ -132,7 +132,7 @@ window.$docsify.plugins.push(function (hook, vm) {
 
       if (window.code_template && window.code_final) {
         var diff_button = document.createElement('button');
-        diff_button.innerHTML = '&#x1D321; Diff View';
+        diff_button.innerHTML = '&#x1D321; Difference';
         diff_button.classList += 'editor-button';
         diff_button.id = 'editor-diff-button';
         diff_button.onclick = function () {

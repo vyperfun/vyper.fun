@@ -18,7 +18,7 @@ keccak256("aaaac")
 # returns b1f078126895a1424524de5321b339ab00408010b7cf0e6ed451514981e58aa9
 ```
 
-As you can see, the returned values are totally different despite only a 1 character change in the input.
+As you can see, the returned values are totally different despite only 1 character change in the input.
 
 > Note: Secure random-number generation in blockchain is a very difficult problem. Our method here is insecure, but since security isn't top priority for our Pokemon DNA, it will be good enough for our purposes.
 

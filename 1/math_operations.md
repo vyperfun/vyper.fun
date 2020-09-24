@@ -12,7 +12,7 @@ Vyper also supports an exponential operator (i.e. "`x` to the power of `y`", `x^
 
 ```vyper
 # equal to 5^2 = 25
-uint256 x = 5 ** 2;
+uint256 x = 5 ** 2
 ```
 
 ## Put it to the test

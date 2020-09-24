@@ -1,4 +1,4 @@
-# Chapter 10: Calling a Contract from a Contract
+# Chapter 10: Calling a Contract
 
 ## Put it to the test
 

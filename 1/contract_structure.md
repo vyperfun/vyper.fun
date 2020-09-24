@@ -23,9 +23,11 @@ For the scope of this tutorial, we'll want to compile our smart contracts with a
 
 1. In the box to the right, let's create a contract that can be compiled by any compiler version in the range of `0.2.4` (inclusive) to `0.3.0` (exclusive).
 
-2. When you're finished, you can check switch from `🛠 Starting Point` tab to the `✅ Potential Solution` tab to check if your answer matches with the solution.
+2. When you're finished, you can switch from `🛠 Your code` tab to the `✅ Solution` tab to check if your answer matches with the solution **(Tabs are on the bottom right of the screen)**.
 
-3. If you have any questions just click `Open Chat` and ask in the chat 😊
+3. Check the difference between `🛠 Your code` and `✅ Solution` in the `𝌡 Difference` tab.
+
+4. If you have any questions just click `Open Chat` and ask in the chat 😊
 
 <!-- tabs:start -->
 

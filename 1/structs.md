@@ -20,7 +20,7 @@ Structs allow you to create more complicated data types that have multiple prope
 
 ## Put it to the test
 
-In our app, we're going to want to create some Pokemons! And Pokemons will have multiple properties, so this is a perfect use case for a struct.
+In our app, we're going to create some Pokemons! And Pokemons will have multiple properties, so this is a perfect use case for a struct.
 
 1. Create a `struct` named `Pokemon`.
 

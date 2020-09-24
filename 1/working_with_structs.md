@@ -14,7 +14,7 @@ Now we're going to learn how to create new `Persons` and add them to our `people
 
 ```vyper
 // create a New Person:
-Person vasa = Person({ name: "vasa" age: 22 })
+Person vasa = Person({ name: "vasa", age: 22 })
 
 // Add that person to the mapping with key `0`:
 self.people[0] = vasa
@@ -23,7 +23,7 @@ self.people[0] = vasa
 We can also combine these together and do them in one line of code to keep things clean:
 
 ```vyper
-self.people[0] = Person({ name: "vasa" age: 22 })
+self.people[0] = Person({ name: "vasa", age: 22 })
 ```
 
 Notice that we are using `self` environment variable to access the people (state) variable. We will learn more about the variable scopes and `self` in the coming chapters.
