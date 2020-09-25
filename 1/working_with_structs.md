@@ -26,7 +26,33 @@ We can also combine these together and do them in one line of code to keep thing
 self.people[0] = Person({ name: "vasa", age: 22 })
 ```
 
-Notice that we are using `self` environment variable to access the people (state) variable. We will learn more about the variable scopes and `self` in the coming chapters.
+## The `self` Variable
+
+Notice that we are using `self` keyword to access the `people` (state) variable.
+
+`self` is an environment variable used to reference a contract from within itself. `self` allows you to **read and write to state variables** and to **call private (internal) functions within the contract**. We will learn about external/internal functions in the next chapter.
+
+`self` is used to access a contract’s state variables, as shown in the following example:
+
+```vyper
+message: String[10]
+
+@external
+def setMessage(msg: String[10]):
+    self.message = msg
+```
+
+`self` is also used to call internal functions within a contract:
+
+```vyper
+@internal
+def multiplyByTwo(amount: uint256):
+    amount * 2
+
+@external
+def calculate(amount: uint256):
+    self.multiplyByTwo(amount)
+```
 
 ## Put it to the test
 
@@ -34,7 +60,9 @@ Let's make our `createPokemon` function do something!
 
 1. Remove the `pass` keyword. Fill in the function body so it creates a new `Pokemon`, and adds it to the `pokemonList` mapping. The `name`, `dna`, and `HP` for the new `Pokemon` should come from the function arguments.
 
-2. Let's do it in one line of code to keep things clean.
+2. Do not forget to use the `self` environment variable to access `pokemonList` mapping.
+
+3. Let's do it in one line of code to keep things clean.
 
 <!-- tabs:start -->
 
