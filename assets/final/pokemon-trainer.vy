@@ -12,14 +12,14 @@ struct Trainer:
 
 DNA_DIGITS: constant(uint256) = 16
 DNA_MODULUS: constant(uint256) = 10 ** DNA_DIGITS
-HP_LIMIT: constant(uint256) = 1000 
-WILD_POKEMON: constant(address) = 0xB8c77482e45F1F44dE1745F52C74426C631bDD52
+HP_LIMIT: constant(uint256) = 1000
+WILD_POKEMON: constant(address) = 0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e
 
 trainerList: HashMap[address, Trainer]
 pokemonList: HashMap[uint256, Pokemon]
 trainerToPokemon: HashMap[address, HashMap[uint256, Pokemon]]
 
-ownerPokemonCount: HashMap[address, uint256]
+trainerPokemonCount: HashMap[address, uint256]
 totalPokemonCount: public(uint256)
 
 event NewPokemonCreated:
@@ -37,7 +37,7 @@ interface WildPokemons:
 @external
 def battleWildPokemon(pokemonIndex: uint256):
 
-    assert pokemonIndex < self.ownerPokemonCount[msg.sender], "Invalid Index Provided"
+    assert pokemonIndex < self.trainerPokemonCount[msg.sender], "Invalid Index Provided"
 
     battleResult: bool = empty(bool)
     newPokemonName: String[32] = empty(String[32])
@@ -62,8 +62,8 @@ def battleWildPokemon(pokemonIndex: uint256):
         self.pokemonList[self.totalPokemonCount] = newPokemon
         self.totalPokemonCount += 1
 
-        self.trainerToPokemon[msg.sender][self.ownerPokemonCount[msg.sender]] = newPokemon
-        self.ownerPokemonCount[msg.sender] += 1
+        self.trainerToPokemon[msg.sender][self.trainerPokemonCount[msg.sender]] = newPokemon
+        self.trainerPokemonCount[msg.sender] += 1
 
         log NewPokemonCreated(newPokemonName, newPokemonDNA, newPokemonHP)
 
@@ -109,13 +109,13 @@ def createTrainer(trainerName: String[32], pokemonName: String[32]):
     })
 
     self.trainerList[msg.sender] = newTrainer
-    self.trainerToPokemon[msg.sender][self.ownerPokemonCount[msg.sender]] = newPokemon
-    self.ownerPokemonCount[msg.sender] += 1
+    self.trainerToPokemon[msg.sender][self.trainerPokemonCount[msg.sender]] = newPokemon
+    self.trainerPokemonCount[msg.sender] += 1
 
     log NewTrainerCreated(trainerName)
 
 @view
 @external
 def listTrainerPokemon(pokemonIndex: uint256) -> Pokemon:
-    assert pokemonIndex < self.ownerPokemonCount[msg.sender], "Invalid Index Provided"
+    assert pokemonIndex < self.trainerPokemonCount[msg.sender], "Invalid Index Provided"
     return self.trainerToPokemon[msg.sender][pokemonIndex]

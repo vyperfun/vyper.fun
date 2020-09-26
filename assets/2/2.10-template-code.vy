@@ -3,6 +3,7 @@
 DNA_DIGITS: constant(uint256) = 16
 DNA_MODULUS: constant(uint256) = 10 ** DNA_DIGITS
 HP_LIMIT: constant(uint256) = 1000
+# add WILD_POKEMON
 
 struct Pokemon:
     name: String[32]
@@ -25,6 +26,17 @@ event NewPokemonCreated:
     name: String[32]
     dna: uint256
     HP: uint256
+
+event NewTrainerCreated:
+    name: String[32]
+
+interface WildPokemons:
+    def battle(pokemon: Pokemon) -> (bool, String[32], uint256, uint256): nonpayable
+
+@external
+def battleWildPokemon(pokemonIndex: uint256):
+    assert pokemonIndex < self.trainerPokemonCount[msg.sender], "Invalid Index Provided"
+    # call battle function
 
 @pure
 @internal
@@ -54,4 +66,17 @@ def _createPokemon(_name: String[32]) -> Pokemon:
 
     return newPokemon
 
-# add createTrainer function
+@external
+def createTrainer(trainerName: String[32], pokemonName: String[32]):
+    
+    newPokemon: Pokemon = self._createPokemon(pokemonName)
+
+    newTrainer: Trainer = Trainer({
+        name: trainerName
+    })
+
+    self.trainerList[msg.sender] = newTrainer
+    self.trainerToPokemon[msg.sender][self.trainerPokemonCount[msg.sender]] = newPokemon
+    self.trainerPokemonCount[msg.sender] += 1
+
+    log NewTrainerCreated(trainerName)

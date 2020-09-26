@@ -11,7 +11,7 @@ Defining a mapping looks like this:
 exampleMapping1: HashMap[uint256, String[64]]
 
 # a mapping to store usernames and number of their followers
-exampleMapping1: HashMap[String[32], uint256]
+exampleMapping2: HashMap[String[32], uint256]
 ```
 
 A mapping is essentially a key-value store for storing and looking up data. In the first mapping named `exampleMapping1`, the key is an `uint256` and the value is a `String[64]`, and in the second mapping named `exampleMapping2` the key is a `String[32]` and the value is a `uint256`.

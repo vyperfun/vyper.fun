@@ -1,4 +1,4 @@
-# Chapter 1: Addresses
+# Chapter 0: Template
 
 ## Put it to the test
 

@@ -58,6 +58,6 @@ First, to create a trainer, we would need to create a trainer struct. Then To st
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/1/12.0-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../assets/1/1.12-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->

@@ -3,6 +3,7 @@
 DNA_DIGITS: constant(uint256) = 16
 DNA_MODULUS: constant(uint256) = 10 ** DNA_DIGITS
 HP_LIMIT: constant(uint256) = 1000
+WILD_POKEMON: constant(address) = 0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e
 
 struct Pokemon:
     name: String[32]
@@ -25,6 +26,24 @@ event NewPokemonCreated:
     name: String[32]
     dna: uint256
     HP: uint256
+
+event NewTrainerCreated:
+    name: String[32]
+
+interface WildPokemons:
+    def battle(pokemon: Pokemon) -> (bool, String[32], uint256, uint256): nonpayable
+
+@external
+def battleWildPokemon(pokemonIndex: uint256):
+    assert pokemonIndex < self.trainerPokemonCount[msg.sender], "Invalid Index Provided"
+    
+    battleResult: bool = empty(bool)
+    newPokemonName: String[32] = empty(String[32])
+    newPokemonDNA: uint256 = empty(uint256)
+    newPokemonHP: uint256 = empty(uint256)
+
+    battleResult, newPokemonName, newPokemonDNA, newPokemonHP = WildPokemons(WILD_POKEMON).battle(self.trainerToPokemon[msg.sender][pokemonIndex])
+    # complete the function body
 
 @pure
 @internal
@@ -54,4 +73,17 @@ def _createPokemon(_name: String[32]) -> Pokemon:
 
     return newPokemon
 
-# add createTrainer function
+@external
+def createTrainer(trainerName: String[32], pokemonName: String[32]):
+    
+    newPokemon: Pokemon = self._createPokemon(pokemonName)
+
+    newTrainer: Trainer = Trainer({
+        name: trainerName
+    })
+
+    self.trainerList[msg.sender] = newTrainer
+    self.trainerToPokemon[msg.sender][self.trainerPokemonCount[msg.sender]] = newPokemon
+    self.trainerPokemonCount[msg.sender] += 1
+
+    log NewTrainerCreated(trainerName)

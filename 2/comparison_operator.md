@@ -61,14 +61,14 @@ We will compare the `HP` of the pokemons to decide the winner. If the trainer po
 
 #### ** Template **
 
-[embedded-code](../assets/2/2.7-template-code.vy ':include :type=code embed-template')
+[embedded-code](../assets/2/2.6-template-code.vy ':include :type=code embed-template')
 
 #### ** Solution **
 
-[embedded-code-final](../assets/2/2.7-finished-code.vy ':include :type=code embed-final')
+[embedded-code-final](../assets/2/2.6-finished-code.vy ':include :type=code embed-final')
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/2/2.6-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../assets/2/2.5-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->

@@ -17,6 +17,20 @@
   - [Events](1/events.md)
   <!-- - [Glossary](https://substrate.dev/docs/overview/glossary) -->
 
+- [**#2 Catch'em all**](2/introduction.md)
+
+  - [Addresses](2/addresses.md)
+  - [Msg.sender](2/msg-sender.md)
+  - [Wild Pokemons](2/wild_pokemons.md)
+  - [Init Function](2/init.md)
+  - [Create a Random Wild Pokemon](2/random_wild_pokemon.md)
+  - [Comparison Operators and If-Else](2/comparison_operator.md)
+  - [Empty Function](2/empty.md)
+  - [Interfaces and Imports](2/interfaces.md)
+  - [Assert](2/assert.md)
+  - [Calling a Contract](2/calling_a_contract.md)
+  - [Putting It Together](2/putting_it_together.md)
+
 - [Gitcoin Grant](https://gitcoin.co/grants/1122/vyperfun)
 - [Report an Issue](https://github.com/dappkit/vyper.fun/issues)
 <!-- - [r/substrate](https://www.reddit.com/r/substrate) -->
