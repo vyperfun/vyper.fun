@@ -10,7 +10,7 @@
   - [Function Declarations](1/function_declarations.md)
   - [Working With Structs and Mappings](1/working_with_structs.md)
   - [External / Internal Functions](1/external_internal_functions.md)
-  - [Public / Private Variables](1/public_private_vars.md)
+  - [Public Variables](1/public_vars.md)
   - [More on Functions](1/more_on_functions.md)
   - [Keccak256 and Typecasting](1/keccak256-and-typecasting.md)
   - [Putting It Together](1/putting_it_together.md)

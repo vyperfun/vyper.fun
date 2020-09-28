@@ -10,7 +10,7 @@ To return a value from a function, the declaration looks like this:
 nameToAge: HashMap[String[64], uint256]
 
 @external
-def getAge(String[64] name) -> uint256:
+def getAge(name: String[64]) -> uint256:
     return self.nameToAge[name]
 ```
 
@@ -36,7 +36,7 @@ nameToAge: HashMap[String[64], uint256]
 
 @view
 @external
-def getAge(String[64] name) -> uint256:
+def getAge(name: String[64]) -> uint256:
     return self.nameToAge[name]
 ```
 

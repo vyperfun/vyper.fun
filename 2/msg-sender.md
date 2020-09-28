@@ -16,7 +16,7 @@ Here's an example of using `msg.sender` and updating a mapping:
 favoriteNumber: HashMap[address, uint256]
 
 @external
-def setMyNumber(uint256 myNumber):
+def setMyNumber(myNumber: uint256):
     # Update our `favoriteNumber` mapping to store `myNumber` under `msg.sender`
     favoriteNumber[msg.sender] = myNumber
 

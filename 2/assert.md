@@ -14,7 +14,7 @@ You can also add an _optional_ error message.
 
 ```vyper
 @external
-def applyForDriversLicense(String[32] name, int256 age):
+def applyForDriversLicense(String[32]: name, uint256: age):
     assert age < 18 , "not eligible for driver's license"
 ```
 
