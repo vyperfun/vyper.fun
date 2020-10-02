@@ -20,7 +20,7 @@ Join our [Discord server](https://discord.gg/Svaav43) for collaboration & suppor
 
 ## Contributors
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these 80 wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -137,6 +137,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <tr>
 <td align="center"><a href="https://github.com/qslnz"><img src="https://avatars.githubusercontent.com/qslnz" width="100px;" alt=""/><br /><sub><b>qslnz</b></sub></a><br /><a href="#financial-qslnz" title="Financial">💵</a></td>
+<td align="center"><a href="https://github.com/5fiftyseven7"><img src="https://avatars.githubusercontent.com/5fiftyseven7" width="100px;" alt=""/><br /><sub><b>5fiftyseven7</b></sub></a><br /><a href="#financial-5fiftyseven7" title="Financial">💵</a></td>
+<td align="center"><a href="https://github.com/PabloCGL"><img src="https://avatars.githubusercontent.com/PabloCGL" width="100px;" alt=""/><br /><sub><b>PabloCGL</b></sub></a><br /><a href="#financial-PabloCGL" title="Ideas">🤔</a></td>
 </tr>
-
 </table>
