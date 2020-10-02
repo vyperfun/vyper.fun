@@ -26,7 +26,7 @@
   - [Create a Random Wild Pokemon](2/random_wild_pokemon.md)
   - [Comparison Operators and If-Else](2/comparison_operator.md)
   - [Empty Function](2/empty.md)
-  - [Interfaces and Imports](2/interfaces.md)
+  - [Interfaces](2/interfaces.md)
   - [Assert](2/assert.md)
   - [Calling a Contract](2/calling_a_contract.md)
   - [Putting It Together](2/putting_it_together.md)
