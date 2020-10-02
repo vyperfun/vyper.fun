@@ -20,7 +20,7 @@ Join our [Discord server](https://discord.gg/Svaav43) for collaboration & suppor
 
 ## Contributors
 
-Thanks goes to these 82 wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these **90 wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key))**:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -141,6 +141,15 @@ Thanks goes to these 82 wonderful people ([emoji key](https://allcontributors.or
 <td align="center"><a href="https://github.com/PabloCGL"><img src="https://avatars.githubusercontent.com/PabloCGL" width="100px;" alt=""/><br /><sub><b>PabloCGL</b></sub></a><br /><a href="#financial-PabloCGL" title="Ideas">🤔</a></td>
 <td align="center"><a href="https://github.com/ranama"><img src="https://avatars.githubusercontent.com/ranama" width="100px;" alt=""/><br /><sub><b>ranama</b></sub></a><br /><a href="#financial-ranama" title="Financial">💵</a></td>
 <td align="center"><a href="https://github.com/maltaiso"><img src="https://avatars.githubusercontent.com/maltaiso" width="100px;" alt=""/><br /><sub><b>maltaiso</b></sub></a><br /><a href="#financial-maltaiso" title="Financial">💵</a></td>
-
+<td align="center"><a href="https://github.com/gzanitti"><img src="https://avatars.githubusercontent.com/gzanitti" width="100px;" alt=""/><br /><sub><b>Gastón Zanitti</b></sub></a><br /><a href="#translation-gzanitti" title="Translation">🌍</a></td>
+<td align="center"><a href="https://github.com/markusbkoch"><img src="https://avatars.githubusercontent.com/markusbkoch" width="100px;" alt=""/><br /><sub><b>Markus Buhatem Koch</b></sub></a><br /><a href="#financial-markusbkoch" title="Financial">💵</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/viktorbunin"><img src="https://avatars.githubusercontent.com/viktorbunin" width="100px;" alt=""/><br /><sub><b>Viktor Bunin</b></sub></a><br /><a href="#financial-viktorbunin" title="Financial">💵</a></td>
+<td align="center"><a href="https://github.com/odiblocha"><img src="https://avatars.githubusercontent.com/odiblocha" width="100px;" alt=""/><br /><sub><b>odiblocha</b></sub></a><br /><a href="#financial-odiblocha" title="Financial">💵</a></td>
+<td align="center"><a href="https://github.com/coopcode"><img src="https://avatars.githubusercontent.com/coopcode" width="100px;" alt=""/><br /><sub><b>coopcode</b></sub></a><br /><a href="#financial-coopcode" title="Financial">💵</a></td>
+<td align="center"><a href="https://github.com/yalormewn"><img src="https://avatars.githubusercontent.com/yalormewn" width="100px;" alt=""/><br /><sub><b>Yalor Arnold</b></sub></a><br /><a href="#financial-yalormewn" title="Financial">💵</a></td>
+<td align="center"><a href="https://github.com/cleanappio"><img src="https://avatars.githubusercontent.com/cleanappio" width="100px;" alt=""/><br /><sub><b>CleanApp</b></sub></a><br /><a href="#financial-cleanappio" title="Financial">💵</a></td>
+<td align="center"><a href="https://github.com/midnightonmars"><img src="https://avatars.githubusercontent.com/midnightonmars" width="100px;" alt=""/><br /><sub><b>Justin Leroux</b></sub></a><br /><a href="#financial-midnightonmars" title="Financial">💵</a></td>
 </tr>
 </table>

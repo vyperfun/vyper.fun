@@ -1,4 +1,4 @@
-<!-- Add translation here.
+<!-- Add translation for the following page: https://vyper.fun/#/1/external_internal_functions
 Do NOT change the code below. The below code runs the code editor -->
 
 <!-- tabs:start -->
