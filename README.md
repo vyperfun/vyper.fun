@@ -20,7 +20,7 @@ Join our [Discord server](https://discord.gg/Svaav43) for collaboration & suppor
 
 ## Contributors
 
-Thanks goes to these 80 wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Thanks goes to these 82 wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -42,7 +42,7 @@ Thanks goes to these 80 wonderful people ([emoji key](https://allcontributors.or
     <td align="center"><a href="https://github.com/Shrutirupa"><img src="https://avatars2.githubusercontent.com/u/25227695?s=460&u=f1a9a67ba71c5f565604d4af0fbcadac6363b69e&v=4" width="100px;" alt=""/><br /><sub><b>Shrutirupa</b></sub></a><br /><a href="#review-Shrutirupa" title="Review">👀</a></td>
     <td align="center"><a href="https://github.com/chloethedev"><img src="https://avatars0.githubusercontent.com/u/59714824?s=400&u=0169e1cba1de0d54ee26d3ff89a19c60aa41c1e2&v=4" width="100px;" alt=""/><br /><sub><b>Chloe Lewis</b></sub></a><br /><a href="#review-chloethedev" title="Review">👀</a>&nbsp;<a href="#financial-chloethedev" title="Financial">💵</a></td>
     <td align="center"><a href="https://github.com/harshrajat"><img src="https://avatars.githubusercontent.com/harshrajat" width="100px;" alt=""/><br /><sub><b>harshrajat</b></sub></a><br /><a href="#financial-harshrajat" title="Financial">💵</a></td>
-<td align="center"><a href="https://github.com/ranama"><img src="https://avatars.githubusercontent.com/ranama" width="100px;" alt=""/><br /><sub><b>ranama</b></sub></a><br /><a href="#financial-ranama" title="Financial">💵</a></td>
+<td align="center"><a href="https://github.com/https://github.com/anettrolikova"><img src="https://avatars.githubusercontent.com/anettrolikova" width="100px;" alt=""/><br /><sub><b>Anett Rolikova</b></sub></a><br /><a href="#financial-https://github.com/anettrolikova" title="Financial">💵</a></td>
 <td align="center"><a href="https://github.com/tjayrush"><img src="https://avatars.githubusercontent.com/tjayrush" width="100px;" alt=""/><br /><sub><b>tjayrush</b></sub></a><br /><a href="#financial-tjayrush" title="Financial">💵</a></td>
   </tr>
 <tr>
@@ -139,5 +139,8 @@ Thanks goes to these 80 wonderful people ([emoji key](https://allcontributors.or
 <td align="center"><a href="https://github.com/qslnz"><img src="https://avatars.githubusercontent.com/qslnz" width="100px;" alt=""/><br /><sub><b>qslnz</b></sub></a><br /><a href="#financial-qslnz" title="Financial">💵</a></td>
 <td align="center"><a href="https://github.com/5fiftyseven7"><img src="https://avatars.githubusercontent.com/5fiftyseven7" width="100px;" alt=""/><br /><sub><b>5fiftyseven7</b></sub></a><br /><a href="#financial-5fiftyseven7" title="Financial">💵</a></td>
 <td align="center"><a href="https://github.com/PabloCGL"><img src="https://avatars.githubusercontent.com/PabloCGL" width="100px;" alt=""/><br /><sub><b>PabloCGL</b></sub></a><br /><a href="#financial-PabloCGL" title="Ideas">🤔</a></td>
+<td align="center"><a href="https://github.com/ranama"><img src="https://avatars.githubusercontent.com/ranama" width="100px;" alt=""/><br /><sub><b>ranama</b></sub></a><br /><a href="#financial-ranama" title="Financial">💵</a></td>
+<td align="center"><a href="https://github.com/maltaiso"><img src="https://avatars.githubusercontent.com/maltaiso" width="100px;" alt=""/><br /><sub><b>maltaiso</b></sub></a><br /><a href="#financial-maltaiso" title="Financial">💵</a></td>
+
 </tr>
 </table>
