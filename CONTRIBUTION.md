@@ -66,4 +66,4 @@ Keep an on this page. I will review your edits and if there is something wrong, 
 
 If everything is ok, then your pull request will be merged! You will be listed as a contributor on the [contributors wall](https://github.com/vyperfun/vyper.fun#contributors)!
 
-![Contributors wall](https://files.gitter.im/5f4e9bc8d73408ce4fedc7e3/QCod/hack-11.png)
+![Contributors wall](https://files.gitter.im/5f4e9bc8d73408ce4fedc7e3/GNjO/hack-11.png)
