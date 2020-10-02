@@ -8,7 +8,7 @@ Mathematik in Vyper ist ziemlich unkompliziert. Die folgenden Operationen sind d
 - Subtraktion: `x - y`
 - Multiplikation: `x * y`
 - Division: `x / y`
-- Divison mit Rest: `x % y` (Zum Beispiel `13 % 5` ist `3`, weil beim Dividieren von `13` durch `5`, bleibt der Rest `3`)
+- Division mit Rest: `x % y` (Zum Beispiel `13 % 5` ist `3`, weil beim Dividieren von `13` durch `5`, bleibt der Rest `3`)
 
 Vyper unterstützt auch einen exponentiellen Operator (d.h. "`x` hoch `y`", `x^y`):
 
