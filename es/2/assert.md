@@ -61,7 +61,7 @@ Mientras vamos incrementando `trainerPokemonCount`, subsecuentes pokemones son a
 
 Como no hay pokemones asociados con `pokemonIndex` mayor a `0` para este entrenador, la transacción causaría un error durante el tiempo de ejecución.
 
-2. Para mitigar esta situación, dentro de la función `battleWildPokemon`, agregamos una declaración `assert` que chequea si `pokemonIndex` es menor que `self.trainerPokemonCount[msg.sender]`. Si la condición es `Falsa`, retornamos el mesaje de error: `"Índice No Válido Provisto"`.
+2. Para mitigar esta situación, dentro de la función `battleWildPokemon`, agregamos una declaración `assert` que chequea si `pokemonIndex` es menor que `self.trainerPokemonCount[msg.sender]`. Si la condición es `Falsa`, retornamos el mensaje de error: `"Índice No Válido Provisto"`.
 
 <!-- tabs:start -->
 
