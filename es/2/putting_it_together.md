@@ -1,8 +1,6 @@
-# Capítulo 11: Juntando todo
+# Capítulo 11: Juntándolo todo
 
-En el capítulo anterior, llamamos la función `battle` del contrato del pokemon salvaje desde el contrato del entrenador.
-
-Manejamos múltiples valores retornados por la función `battle` del contrato del pokemon salvaje desde el contrato del entrenador.
+En el capítulo anterior, llamamos la función `battle` perteneciente al contrato del pokemon salvaje, desde el contrato del entrenador.
 
 Manejamos múltiples valores retornados por la función `battle` usando una tupla. Ahora usaremos las variables de la tupla para alterar el estado del contrato del entrenador.
 
@@ -26,7 +24,7 @@ Como discutimos, tenemos 2 condiciones basadas en la variable `battleResult`. Si
     - wins: `0`
   - Agrega este `newPokemon` al mapeo `pokemonList` usando la llave `totalPokemonCount`.
   - Incrementa `totalPokemonCount` por `1`.
-  - Añade el `newPokemon` al mapeo `trainerToPokemon` usando como primera llave `msg.sender` y como segunda llave `trainerPokemonCount[msg.sender]`.
+  - Agrega el `newPokemon` al mapeo `trainerToPokemon` usando como primera llave `msg.sender` y como segunda llave `trainerPokemonCount[msg.sender]`.
   - Incrementa `trainerPokemonCount[msg.sender]` por `1` usando el operador aritmético `+=`.
   - Emite el evento `NewPokemonCreated` con los siguientes parámetros: `newPokemonName`, `newPokemonDNA` y `newPokemonHP`.
 
