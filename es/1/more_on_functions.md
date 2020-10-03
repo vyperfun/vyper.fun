@@ -3,7 +3,6 @@ Do NOT change the code below. The below code runs the code editor -->
 
 # Capítulo 10: Más sobre funciones
 
-In this chapter, we're going to learn about function `return` values, and optional function decorators.
 En este capítulo, aprenderemos sobre los valores de retorno de las funciónes (`return`) y los decoradores de función opcionales.
 
 ## Devolver valores
