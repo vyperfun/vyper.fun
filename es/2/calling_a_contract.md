@@ -1,10 +1,10 @@
-# Capítulo 10: Ejecutando un Contrato
+# Capítulo 10: Llamando a un Contrato
 
-En el [Capítulo 8](https://vyper.fun/#/2/interfaces), agregamos la interfaz `WildPokemons` al contrato del entrenador. En este contrato, vamos a llamar la función `battle` de la interfaz `WildPokemon`.
+En el [Capítulo 8](https://vyper.fun/#/2/interfaces), agregamos la interfaz `WildPokemons` al contrato del entrenador. En este capítulo, vamos a llamar a la función `battle` de la interfaz `WildPokemon`.
 
 Si recuerdas el [Capítulo 8](https://vyper.fun/#/2/interfaces), necesitamos la dirección de un contrato para interactuar con `WildPokemons`.
 
-Aprenderemos como implementar un contrato al blockchain de Ethereum y obtener la dirección del contrato en lecciones futuras. Para propósitos de este capítulo, he implementado el [contrato `WildPokemons` en la Rinkeby Testnet](https://rinkeby.etherscan.io/address/0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e)
+Aprenderemos como implementar un contrato en la blockchain de Ethereum y obtener la dirección del contrato en lecciones futuras. Para propósitos de este capítulo, he implementado el [contrato `WildPokemons` en la Rinkeby Testnet](https://rinkeby.etherscan.io/address/0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e)
 
 Aquí está la dirección del contrato: [0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e](https://rinkeby.etherscan.io/address/0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e)
 
@@ -50,13 +50,13 @@ La función `battle` retorna los siguientes 4 argumentos:
 - `newPokemonDNA`: `uint256`
 - `newPokemonHP`: `uint256`
 
-1. Dentro de `battleWildPokemon`, define estas 4 variables e inicialízalas usando la función incorporada `empty`.
+1. Dentro de `battleWildPokemon`, define estas 4 variables de función e inicialízalas usando la función incorporada `empty`.
 
 2. Define una variable de almacenamiento con `constant` `address` llamada `WILD_POKEMON` con el valor `0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e`.
 
-3. Dentro de `battleWildPokemon`, usa `WildPokemons` y `WILD_POKEMON` para ejecutar la función `battle` que recibe un solo parámetro de tipo `Pokemon`. Este parámetro puede ser obtenido usando el mapeo `trainerToPokemon` enviando las 2 llaves: `msg.sender` como la primera y `pokemonIndex` como la segunda.
+3. Dentro de `battleWildPokemon`, usa `WildPokemons` y `WILD_POKEMON` para llamar la función `battle` que recibe un solo parámetro de tipo `Pokemon`. Este parámetro puede ser obtenido usando el mapeo `trainerToPokemon` enviando las 2 llaves: `msg.sender` como la primera y `pokemonIndex` como la segunda.
 
-4. Usa las variables creadas en el paso 1 para crear una tupla para poder capturar los múltiples valores a ser retornados.
+4. Usa las variables de función creadas en el paso 1 para crear una tupla que sirva para capturar los múltiples valores a ser retornados.
 
 <!-- tabs:start -->
 
