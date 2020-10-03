@@ -34,6 +34,10 @@ Congratulations 🎉
 
 You have completed the Chapter 2 and the trainers can battle and capture wild pokemons ⚔️
 
+Tweet about it to share your amazing feat!
+
+[![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fvyper.fun%2F%23%2F2%2Fintroduction)](https://twitter.com/intent/tweet?hashtags=VyperFun&ref_src=twsrc%5Etfw&text=I%20just%20completed%20Lesson%202%3A%20Battle%20and%20Capture%20wild%20Pok%C3%A9mons%20on%20blockchain%20using%20%40vyperlang%20at%20%40VyperFun%20%E2%9A%94%EF%B8%8F%20&tw_p=tweetbutton&url=https%3A%2F%2Fvyper.fun%2F%23%2F2%2Fintroduction)
+
 <!-- tabs:start -->
 
 #### ** Template **

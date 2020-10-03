@@ -1,4 +1,4 @@
-- [Welcome](./README.md)
+- [Welcome](./WELCOME.md)
 
 - [**#1 Your First Pokemon**](1/introduction.md)
 

@@ -29,6 +29,12 @@ For the scope of this tutorial, we'll want to compile our smart contracts with a
 
 4. If you have any questions just click `Open Chat` and ask in the chat 😊
 
+Congratulations 🎉
+
+You just completed Chapter 1. Tweet about it to share your amazing feat!
+
+[![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fvyper.fun%2F%23%2F1%2Fcontract_structure)](https://twitter.com/intent/tweet?hashtags=VyperFun&ref_src=twsrc%5Etfw&text=I%20just%20completed%20Chapter%201%20of%20%40VyperFun%3A%20Create%20your%20Pok%C3%A9mon%20on%20blockchain%20using%20%40vyperlang%20%F0%9F%98%8E%20&tw_p=tweetbutton&url=https%3A%2F%2Fvyper.fun%2F%23%2F1%2Fcontract_structure)
+
 <!-- tabs:start -->
 
 #### ** Template **

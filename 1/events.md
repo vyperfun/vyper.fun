@@ -42,6 +42,14 @@ We want an event to let our front-end know every time a new pokemon was created,
 
 2. Use the `log` keyword to fire the event inside the `_createPokemon` function just before the `return` statement.
 
+Congratulations 🎉
+
+You have completed the Lesson 1 of Vyper.fun and now you have to power to create new Pokémons on blockchain using Vyper 🔥
+
+Tweet about it to share your amazing feat!
+
+[![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fvyper.fun%2F%23%2F1%2Fintroduction)](https://twitter.com/intent/tweet?hashtags=VyperFun&ref_src=twsrc%5Etfw&text=I%20just%20completed%20Lesson%201%3A%20Create%20your%20Pok%C3%A9mon%20on%20blockchain%20using%20%40vyperlang%20at%20%40VyperFun%20%F0%9F%98%8E%20&tw_p=tweetbutton&url=https%3A%2F%2Fvyper.fun%2F%23%2F1%2Fintroduction)
+
 <!-- tabs:start -->
 
 #### ** Template **
