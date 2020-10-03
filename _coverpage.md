@@ -4,18 +4,18 @@
 
 > Learn Vyper by building a Pokemon Game!
 
-[Get Started](./README.md)
+[Get Started](./WELCOME.md)
 [GitHub](https://github.com/dappkit/vyper.fun)
 
-<!-- [开始吧](zh-cn/README.md)
-[はじめる](ja-jp/README.md)
-[Commencer](fr/README.md)
-[German](de/README.md)
-[Iniziare](it/README.md)
-[Iniciar](pt-br/README.md)
-[Начать](ru/README.md)
-[Empezar](es/README.md)
-[البدء](ar-sa/README.md) -->
+<!-- [开始吧](zh-cn/WELCOME.md)
+[はじめる](ja-jp/WELCOME.md)
+[Commencer](fr/WELCOME.md)
+[German](de/WELCOME.md)
+[Iniziare](it/WELCOME.md)
+[Iniciar](pt-br/WELCOME.md)
+[Начать](ru/WELCOME.md)
+[Empezar](es/WELCOME.md)
+[البدء](ar-sa/WELCOME.md) -->
 
 <!-- Overwrite Background Image with black -->
 
