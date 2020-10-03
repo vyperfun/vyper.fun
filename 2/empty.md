@@ -1,6 +1,6 @@
 # Chapter 7: Empty Function
 
-In the previous chapter, defined the logic of a pokemon battle and returned the wild pokemon details if the trainer pokemon wins.
+In the previous chapter, we defined the logic of a pokemon battle and returned the wild pokemon details if the trainer pokemon wins.
 
 But what if the trainer pokemon loses? In such a case we need to return some empty values.
 
@@ -11,7 +11,6 @@ But what if the trainer pokemon loses? In such a case we need to return some emp
 It is useful for initializing new memory variables.
 
 ```vyper
-
 @external
 def someFunction():
    name: String[32] = empty(String[32])
