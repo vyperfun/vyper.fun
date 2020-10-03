@@ -14,7 +14,7 @@ Una función puede tambien retornar multiples valores de retorno como el siguien
         age: uint256
 
     # un mapeo entre el número de roll y
-    # detalles del estudiante
+    # los detalles del estudiante
     studentList: HashMap[uint256, Student]
 
     @external
