@@ -24,9 +24,11 @@ Let's suppose you opted to translate the chapters into [Spanish](). When you cli
 
 ![Vyper.fun: Link to Spanish translation](https://files.gitter.im/5f4e9bc8d73408ce4fedc7e3/fegp/hack-1.png)
 
-Let's suppose you want to translate [Chapter 1: Contracts](). First, add a comment in issue page, specifying the Lesson and chapter number. In this case, you will comment "Lesson 1, Chapter 1". You can also add multiple chapters in a single comment.
+Let's suppose you want to translate [Chapter 1: Contracts](). First, **ADD A COMMENT in issue page, specifying the Lesson and chapter number**. In this case, you will comment "Lesson 1, Chapter 1". You can also add multiple chapters in a single comment.
 
 **To win a Hacktoberfest T-Shirt, you need to complete and submit 4 chapters by 31st of October, 2020.**
+
+**IF YOU SUBMIT A PULL REQUEST WITHOUT COMMENTING ON THE ISSUE, YOUR PULL REQUEST WILL NOT BE ACCEPTED.**
 
 ### Step 3: Edit a file to add your translation
 
