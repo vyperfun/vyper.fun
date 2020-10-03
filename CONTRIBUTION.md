@@ -2,7 +2,7 @@
 
 Currently, we are looking for people who can help us translate the chapters.
 
-Follow the steps to translate chapters and win a [Hacktoberfest T-shirt](https://hacktoberfest.digitalocean.com/)!
+Follow the steps to translate chapters and **WIN a [Hacktoberfest T-shirt](https://hacktoberfest.digitalocean.com/)!**
 
 ### Step 1: Select a language in which you want to translate
 
