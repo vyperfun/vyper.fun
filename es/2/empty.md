@@ -35,7 +35,7 @@ Usaremos la función `empty` para retornar los valores por defecto en caso de qu
 1. Crea una declaración `else` que devuelva los siguientes valores:
 
    * Resultado de Batalla: `False`
-   * Nombre de pokemon salvaje: `empty(String[32])`
+   * Nombre del pokemon salvaje: `empty(String[32])`
    * DNA del pokemon salvaje: `empty(uint256)`
    * HP del pokemon salvaje: `empty(uint256)`
 
