@@ -9,7 +9,7 @@ En el capítulo anterior, se definió la lógica de una batalla pokemon y se ret
 
 ## empty(typename) → Any
 
-`empty` es una función incorporada de Vyper que retorna un valor por defecto de tipo(`typename`) pasado como parámetro.
+`empty` es una función integrada en Vyper que devuelve un valor por defecto del mismo tipo(`typename`) que haya sido pasado como parámetro.
 
 Es útil para inicializar nuevas variables de memoria.
 

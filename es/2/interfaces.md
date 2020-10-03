@@ -15,9 +15,9 @@ Así que, para nuestro caso de uso, necesitamos crear una interfaz para el contr
 
 ## Usando Interfaces
 
-Las Interfaces se pueden añadir a los contratos, ya sea a través de definición en línea o importándolos de un archivo separado.
+Las Interfaces se pueden añadir, ya sea definiéndolas en el mismo contrato o importándolas desde un archivo separado.
 
-La palabra `interface` se utiliza para definir una interfaz externa en línea:
+La palabra `interface` se utiliza para definir una interfaz externa en el mismo archivo:
 
     interface Car:
         def start() -> bool: nonpayable
@@ -41,7 +41,7 @@ El nombre de la interfaz (`Car`) también puede utilizarse como un tipo para las
     def getCarSpeed():
         self.car.getSpeed()
 
-La especificación de la anotación `payable` o `nonpayable` indica que la llamada realizada al contrato externo podrá alterar el contrato de almacenamiento/datos, mientras que la `view`, la llamada `pure` NO podrá ser alterar el contrato de almacenamiento/datos. Además, `payable` permite enviar un valor distinto de cero junto con la llamada (lo que significa que se puede enviar ETH cuando se llama a una función payable).
+La especificación de la anotación `payable` o `nonpayable` que una llamada realizada desde un contrato externo podrá alterar el almacenamiento/datos del contrato, mientras que las llamadas anotadas como `view` o `pure` NO serán capaces de alterar el almacenamiento/datos del contrato. Además, `payable` permite enviar un valor distinto de cero junto con la llamada (lo que significa que se puede enviar ETH cuando se llama a una función payable).
 
     interface Car:
         def calculateDoubleSpeed() -> uint256: pure
@@ -60,7 +60,7 @@ La especificación de la anotación `payable` o `nonpayable` indica que la llama
 
 ## Ponlo a prueba
 
-Como el área de codificación sólo puede tener un archivo a la vez, hemos eliminado el contrato de batalla pokemon y añadido el contrato de entrenador. Puedes ver el contrato de batalla de pokemon [aquí](https://github.com/vyperfun/vyper.fun/blob/chapter1/assets/2/2.7-finished-code.vy).
+Dado que el area donde codificamos nuestros contratos sólo puede tener un archivo a la vez, hemos eliminado el contrato de batalla pokemon y añadido el contrato de entrenador. Puedes ver el contrato de batalla de pokemon [aquí](https://github.com/vyperfun/vyper.fun/blob/chapter1/assets/2/2.7-finished-code.vy).
 
 El contrato de batalla pokemon sólo tiene 1 función externa: `battle`
 

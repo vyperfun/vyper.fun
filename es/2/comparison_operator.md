@@ -48,7 +48,7 @@ Compararemos el `HP` de los pokemons para decidir el ganador. Si el entrenador p
 
 1. Dentro de la función `battle`, incrementa el estado de la variable `battleCount` en 1.
 
-2. Crear una declaración `if` que compare el HP del parámetro del entrenador `pokemon` y el `randomHP` del pokemon salvaje. Si el HP del entrenador `pokemon` es mayor que el `randomHP`, entonces el entrenador `pokemon` gana.
+2. Crear una declaración `if` que compare el parámetro HP del `pokemon` entrenador  y el `randomHP` del pokemon salvaje. Si el HP del `pokemon` del entrenador  es mayor que el `randomHP`, entonces el `pokemon` del entrenador gana.
 
 3. En el cuerpo de la declaración de `if`, retornar los siguientes argumentos:
 
