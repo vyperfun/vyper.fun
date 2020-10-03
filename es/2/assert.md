@@ -20,7 +20,7 @@ def applyForDriversLicense(String[32]: name, uint256: age):
 
 Aquí, si el parámetro `age` que recibe la función `applyForDriversLicense` is menor a `18`, entonces la transacción es revertida con el mensaje `"no es elegible para una licencia de conducir".
 
-> NOTA: Si una transacción es revertida, entonces cualquier cambio realizado al estado del contrator por la transacción será cancelada. En otras palabras, el estado del contrato va a ser restaurado al estado que tenía antes de que la transacción ocurriera.
+> NOTA: Si una transacción es revertida, cualquier cambio realizado al estado del contrato por la transacción será cancelado. En otras palabras, el estado del contrato va a ser restaurado al estado que tenía antes de que la transacción ocurriera.
 
 ## Ponlo a prueba
 
@@ -36,7 +36,7 @@ Para seleccionar un `Pokemon` específico de un entrenador, necesitamos dos cosa
 
 - `address` del entrenador ejecutando el contrato.
 
-- Un índice `uint256` que seleccionará el pokemon específico del entrenador.
+- Un índice `uint256` que seleccionará un pokemon específico del entrenador.
 
 Recordemos del [Capítulo 2](https://vyper.fun/#/2/msg-sender) que puedes obtener la dirección del ejecutor del contrato usando `msg.sender`.
 
@@ -44,7 +44,7 @@ Recordemos del [Capítulo 2](https://vyper.fun/#/2/msg-sender) que puedes obtene
 
 Un entrenador que ejecute la función `battleWildPokemon`, puede enviar el `pokemonIndex` para seleccionar el pokemon a usar durante la batalla contra el pokemon salvaje.
 
-Ahora, supongamos que un entrenador solo tiene un pokemon. Vamos a examinar las siguientes líneas de código en `createTrainer`:
+Ahora, supongamos que un entrenador tiene solo un pokemon. Vamos a examinar las siguientes líneas de código en `createTrainer`:
 
 ```vyper
 self.trainerToPokemon[msg.sender][self.trainerPokemonCount[msg.sender]] = newPokemon
@@ -59,7 +59,7 @@ Mientras vamos incrementando `trainerPokemonCount`, subsecuentes pokemones son a
 
 ¿Qué ocurre si un entrenador con un solo pokemon ejecuta la función `battleWildPokemon` con un `pokemonIndex` mayor a `0`?
 
-Como no hay pokemones asociados con `pokemonIndex` mayor a `0` para este entrenador, la transacción causaría un error durante el tiempo de ejecución (runtime error).
+Como no hay pokemones asociados con `pokemonIndex` mayor a `0` para este entrenador, la transacción causaría un error durante el tiempo de ejecución.
 
 2. Para mitigar esta situación, dentro de la función `battleWildPokemon`, agregamos una declaración `assert` que chequea si `pokemonIndex` es menor que `self.trainerPokemonCount[msg.sender]`. Si la condición es `Falsa`, retornamos el mesaje de error: `"Índice No Válido Provisto"`.
 
