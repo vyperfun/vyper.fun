@@ -7,7 +7,7 @@ Do NOT change the code below. The below code runs the code editor -->
 
 Großartige Arbeit! Jetzt, wo wir eine Hülle für unseren Auftrag haben, wollen wir erfahren, wie Vyper mit Variablen umgeht.
 
-Zustandsvariablen sind permanent im Auftragsspeicher gespeichert. Das bedeutet, dass sie in die Ethereum-Blockkette geschrieben werden. Das bedeutet soviel wie eine Datenbank.
+Zustandsvariablen sind permanent im Contract-Speicher gespeichert. Das bedeutet, dass sie in die Ethereum-Blockkette geschrieben werden. Das bedeutet soviel wie eine Datenbank.
 
 ### Beispiel
 
@@ -18,7 +18,7 @@ Zustandsvariablen sind permanent im Auftragsspeicher gespeichert. Das bedeutet, 
 storedData: int128
 ```
 
-In diesem Beispielauftrag speicherten wir ein [`int128`](https://vyper.readthedocs.io/en/stable/types.html#signed-integer-128-bit) genannt `storedData`, welche einen _Standardwert_ von `1` besitzt.
+In diesem Beispielcontract speicherten wir ein [`int128`](https://vyper.readthedocs.io/en/stable/types.html#signed-integer-128-bit) genannt `storedData`, welche einen _Standardwert_ von `1` besitzt.
 
 ## Positive Zahlen: `uint256`
 
@@ -35,7 +35,7 @@ Es gibt gleichzeitig den Datentyp `int128` (128 bit), der sowohl positive als au
 TEN: constant(uint256) = 10
 ```
 
-In diesem Beispielauftrag, wir erstellten eine Konstante (`constant`) mit dem Typ `uint256`, genannt `TEN` und setzten sie auf den Wert `10`.
+In diesem Beispielcontract, wir erstellten eine Konstante (`constant`) mit dem Typ `uint256`, genannt `TEN` und setzten sie auf den Wert `10`.
 
 ## Stellen Sie sich auf die Probe
 
