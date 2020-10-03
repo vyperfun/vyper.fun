@@ -29,7 +29,7 @@ La interfaz definida `Car` puede ser utilizada para hacer llamadas externas, dad
     def Driver(some_address: address):
         Car(some_address).start()
 
-El nombre de la interfaz (`Car`) también puede utilizarse como un tipo para las variables de almacenamiento. A continuación, se asigna un valor de dirección a la variable para acceder a esa interfaz:
+El nombre de la interfaz (`Car`) también puede utilizarse como un tipo para las variables de almacenamiento. A continuación, se le asigna una dirección a la variable para acceder a esa interfaz:
 
     car: Car
 
@@ -58,7 +58,7 @@ La especificación de la anotación `payable` o `nonpayable` indica que la llama
 
 > NOTA: `view` y la llamada `pure` usan un `STATICCALL` asegurando que no se pueda alterar el almacenamiento durante la ejecución.
 
-## Poniendolo a prueba
+## Ponlo a prueba
 
 Como el área de codificación sólo puede tener un archivo a la vez, hemos eliminado el contrato de batalla pokemon y añadido el contrato de entrenador. Puedes ver el contrato de batalla de pokemon [aquí](https://github.com/vyperfun/vyper.fun/blob/chapter1/assets/2/2.7-finished-code.vy).
 
@@ -68,7 +68,7 @@ El contrato de batalla pokemon sólo tiene 1 función externa: `battle`
     def battle(pokemon: Pokemon) -> (bool, String[32], uint256, uint256):
         # battle code
 
-Como la función de `battle` altera el estado del contrato de batalla pokemon agregando datos a las variables de estado, usarás la anotación `nonpayable`.
+Como la función de `battle` altera el estado del contrato de batalla pokemon agregando datos a las variables de estado, deberas usar la anotación `nonpayable`.
 
 Añade una interfaz llamada `WildPokemons` con 1 definición de función para `battle` con anotación `nonpayable`.
 

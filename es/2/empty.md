@@ -3,7 +3,7 @@ Do NOT change the code below. The below code runs the code editor -->
 
 # Capítulo 7: Función Empty
 
-En el capítulo anterior, se definió la lógica de una batalla pokemon y se retornó los detalles del pokemon salvaje si el entrenador pokemon gana.
+En el capítulo anterior, se definió la lógica de una batalla pokemon y se retornaron los detalles del pokemon salvaje si el entrenador pokemon gana.
 
 ¿Pero qué pasa si el entrenador pokemon pierde? En tal caso necesitamos retornar algunos valores vacíos.
 

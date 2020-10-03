@@ -3,7 +3,7 @@ Do NOT change the code below. The below code runs the code editor -->
 
 # Capítulo 6: Operadores de Comparación y If-Else
 
-En el capítulo anterior, creamos la función de `battle` que creó un pokemon aleatorio.
+En el capítulo anterior, creamos la función `battle` que creó un pokemon aleatorio.
 
 Necesitamos comparar el pokemon salvaje y el pokemon del entrenador para retornar el resultado de la batalla. Para ello necesitamos operadores de comparación
 
@@ -42,7 +42,7 @@ También se pueden incluir declaraciones `elif` y `else`, para añadir más decl
     else:
         # hace algo 3
 
-## Poniendolo a prueba
+## Ponlo a prueba
 
 Compararemos el `HP` de los pokemons para decidir el ganador. Si el entrenador pokemon gana, el entrenador obtiene el nuevo pokemon.
 
@@ -52,10 +52,10 @@ Compararemos el `HP` de los pokemons para decidir el ganador. Si el entrenador p
 
 3. En el cuerpo de la declaración de `if`, retornar los siguientes argumentos:
 
-   * Resultado de Batalla: `True`
-   * Nombre de Pokemon Salvaje: `randomName`
-   * DNA de Pokemon Salvaje: `randomDNA`
-   * HP de Pokemon Salvaje: `randomHP`
+   * Resultado de la Batalla: `True`
+   * Nombre del Pokemon Salvaje: `randomName`
+   * DNA del Pokemon Salvaje: `randomDNA`
+   * HP del Pokemon Salvaje: `randomHP`
 
 <!-- tabs:start -->
 
