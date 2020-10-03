@@ -28,7 +28,7 @@ Aquí puedes encontrar una lista de todos los tipos y valores predeterminados:
 | int128   | 1                                                                           |
 | uint256  | 1                                                                           |
 
-## Poniendolo a prueba
+## Ponlo a prueba
 
 Usaremos la función `empty` para retornar los valores por defecto en caso de que el entrenador pokemon pierda.
 
