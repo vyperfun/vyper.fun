@@ -50,7 +50,7 @@ Compararemos el `HP` de los pokemons para decidir el ganador. Si el entrenador p
 
 2. Crear una declaración `if` que compare el HP del parámetro del entrenador `pokemon` y el `randomHP` del pokemon salvaje. Si el HP del entrenador `pokemon` es mayor que el `randomHP`, entonces el entrenador `pokemon` gana.
 
-3. En el cuerpo de la declaración de if, retornar los siguientes argumentos:
+3. En el cuerpo de la declaración de `if`, retornar los siguientes argumentos:
 
    * Resultado de Batalla: `True`
    * Nombre de Pokemon Salvaje: `randomName`
