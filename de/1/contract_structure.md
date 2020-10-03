@@ -1,17 +1,17 @@
 <!-- Add translation for the following page: https://vyper.fun/#/1/contract_structure
 Do NOT change the code below. The below code runs the code editor -->
 
-# Kapitel 1: Verträge
+# Kapitel 1: Contracts
 
 Fangen wir mit den Grundlagen an:
 
-Ein Vertrag ist der Grundbaustein einer Ethereum Anwendung - alle Variablen und Funktionen gehören zu einem Vertrag und dieser Vertrag wird der Startpunkt all unserer Projekte sein.
+Ein Contract ist der Grundbaustein einer Ethereum Anwendung - alle Variablen und Funktionen gehören zu einem Contract und dieser Contract wird der Startpunkt all unserer Projekte sein.
 
-Vyper Verträge sind innerhalb von Dateien. Jede Datei enthält genau einen Vertrag.
+Vyper Contracts sind innerhalb von Dateien. Jede Datei enthält genau einen Contract.
 
 ## Versions-Compiler-Anweisung
 
-Vyper unterstützt Versions-Compiler-Anweisungen um sicherzustellen, dass ein Vertrag
+Vyper unterstützt Versions-Compiler-Anweisungen um sicherzustellen, dass ein Contract
 nur mit einer festgelegten Compilerversion bzw. Versionsspanne kompiliert wird.
 Dazu wird die [NPM](https://docs.npmjs.com/misc/semver) Syntax verwendet.
 
@@ -23,7 +23,7 @@ Für dieses Tutorial verwenden wir eine Compilerversion zwischen `0.2.0` (inklus
 
 ## Übungsaufgaben
 
-1. Erstelle in der Box rechts einen Vertrag, der mit einer Version zwischen `0.2.4` (inklusive) und `0.3.0` (exklusive) kompiliert werden kann.
+1. Erstelle in der Box rechts einen Contract, der mit einer Version zwischen `0.2.4` (inklusive) und `0.3.0` (exklusive) kompiliert werden kann.
 
 2. Wenn du fertig bist kannst du von `🛠 Dein Code` zum Reiter `✅ Lösung` wechseln, um deine Lösung mit dieser zu vergleichen. **(Tab-Reiter sind im rechten unteren Bereich des Bildschirms)**
 
