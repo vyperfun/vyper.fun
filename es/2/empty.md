@@ -36,7 +36,7 @@ Usaremos la función `empty` para retornar los valores por defecto en caso de qu
 
    * Resultado de Batalla: `False`
    * Nombre de pokemon salvaje: `empty(String[32])`
-   * DNA de pokemon salvaje: `empty(uint256)`
+   * DNA del pokemon salvaje: `empty(uint256)`
    * HP del pokemon salvaje: `empty(uint256)`
 
 <!-- tabs:start -->
