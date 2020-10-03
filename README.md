@@ -20,7 +20,7 @@ Join our [Discord server](https://discord.gg/Svaav43) for collaboration & suppor
 
 ## Contributors
 
-Thanks goes to these **96 wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key))**:
+Thanks goes to these **97 wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key))**:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -159,5 +159,6 @@ Thanks goes to these **96 wonderful people ([emoji key](https://allcontributors.
 <td align="center"><a href="https://github.com/mfinestone"><img src="https://avatars.githubusercontent.com/mfinestone" width="100px;" alt=""/><br /><sub><b>mfinestone</b></sub></a><br /><a href="#financial-mfinestone" title="Financial">💵</a></td>
 <td align="center"><a href="https://github.com/ddwebdevv"><img src="https://avatars.githubusercontent.com/ddwebdevv" width="100px;" alt=""/><br /><sub><b>ddwebdevv</b></sub></a><br /><a href="#translation-ddwebdevv" title="Translation">🌍</a></td>
 <td align="center"><a href="https://github.com/AzogBiceps"><img src="https://avatars.githubusercontent.com/AzogBiceps" width="100px;" alt=""/><br /><sub><b>AzogBiceps</b></sub></a><br /><a href="#translation-AzogBiceps" title="Translation">🌍</a></td>
+<td align="center"><a href="https://github.com/toyamarodrigo"><img src="https://avatars.githubusercontent.com/toyamarodrigo" width="100px;" alt=""/><br /><sub><b>rt</b></sub></a><br /><a href="#translation-toyamarodrigo" title="Translation">🌍</a></td>
 </tr>
 </table>
