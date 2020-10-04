@@ -48,7 +48,7 @@ Você acabou de completar o Capítulo 1. Tweet sobre isso para compartilhar seu 
 
 [embedded-code-final](../assets/1/1.1-finished-code.vy ':include :type=code embed-final')
 
-#### ** Previous Chapter Solutionr **
+#### ** Previous Chapter Solution **
 
 [embedded-code-previous](../assets/1/1.0-finished-code.vy ':include :type=code embed-previous')
 
