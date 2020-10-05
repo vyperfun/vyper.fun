@@ -24,7 +24,7 @@ Forked from [SubstrateKitties](https://github.com/shawntabrizi/substratekitties)
 Substrate is a modular framework that enables you to create purpose-built blockchains by composing custom or pre-built components.
 It also includes smart-contract bricks offering access to others languages, including Rust.
 
-Thanks goes to these **97 wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key))**:
+Thanks goes to these **99 wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key))**:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -50,8 +50,8 @@ Thanks goes to these **97 wonderful people ([emoji key](https://allcontributors.
 <td align="center"><a href="https://github.com/anettrolikova"><img src="https://avatars.githubusercontent.com/anettrolikova" width="100px;" alt=""/><br /><sub><b>Anett Rolikova</b></sub></a><br /><a href="#financial-https://github.com/anettrolikova" title="Financial">💵</a></td>
   </tr>
 <tr>
-<td align="center"><a href="https://github.com/mds1"><img src="https://avatars.githubusercontent.com/mds1" width="100px;" alt=""/><br /><sub><b>mds1</b></sub></a><br /><a href="#financial-mds1" title="Financial">💵</a></td>
-<td align="center"><a href="https://github.com/shawnharmsen"><img src="https://avatars.githubusercontent.com/shawnharmsen" width="100px;" alt=""/><br /><sub><b>shawnharmsen</b></sub></a><br /><a href="#financial-shawnharmsen" title="Financial">💵</a></td>
+<td align="center"><a href="https://github.com/jeluard"><img src="https://avatars.githubusercontent.com/jeluard" width="100px;" alt=""/><br /><sub><b>Julien Eluard</b></sub></a><br /><a href="#code-jeluard" title="Code">💻</a></td>
+<td align="center"><a href="https://github.com/riusricardo"><img src="https://avatars.githubusercontent.com/riusricardo" width="100px;" alt=""/><br /><sub><b>Ricardo Rius</b></sub></a><br /><a href="#review-riusricardo" title="Review">👀</a></td>
 <td align="center"><a href="https://github.com/slayorktc"><img src="https://avatars.githubusercontent.com/slayorktc" width="100px;" alt=""/><br /><sub><b>slayorktc</b></sub></a><br /><a href="#financial-slayorktc" title="Financial">💵</a></td>
 <td align="center"><a href="https://github.com/kingjacob"><img src="https://avatars.githubusercontent.com/kingjacob" width="100px;" alt=""/><br /><sub><b>kingjacob</b></sub></a><br /><a href="#financial-kingjacob" title="Financial">💵</a></td>
 <td align="center"><a href="https://github.com/scco"><img src="https://avatars.githubusercontent.com/scco" width="100px;" alt=""/><br /><sub><b>scco</b></sub></a><br /><a href="#financial-scco" title="Financial">💵</a></td>
@@ -164,5 +164,9 @@ Thanks goes to these **97 wonderful people ([emoji key](https://allcontributors.
 <td align="center"><a href="https://github.com/ddwebdevv"><img src="https://avatars.githubusercontent.com/ddwebdevv" width="100px;" alt=""/><br /><sub><b>ddwebdevv</b></sub></a><br /><a href="#translation-ddwebdevv" title="Translation">🌍</a></td>
 <td align="center"><a href="https://github.com/AzogBiceps"><img src="https://avatars.githubusercontent.com/AzogBiceps" width="100px;" alt=""/><br /><sub><b>AzogBiceps</b></sub></a><br /><a href="#translation-AzogBiceps" title="Translation">🌍</a></td>
 <td align="center"><a href="https://github.com/toyamarodrigo"><img src="https://avatars.githubusercontent.com/toyamarodrigo" width="100px;" alt=""/><br /><sub><b>rt</b></sub></a><br /><a href="#translation-toyamarodrigo" title="Translation">🌍</a></td>
+<td align="center"><a href="https://github.com/mds1"><img src="https://avatars.githubusercontent.com/mds1" width="100px;" alt=""/><br /><sub><b>mds1</b></sub></a><br /><a href="#financial-mds1" title="Financial">💵</a></td>
+</tr>
+<tr>
+<td align="center"><a href="https://github.com/shawnharmsen"><img src="https://avatars.githubusercontent.com/shawnharmsen" width="100px;" alt=""/><br /><sub><b>shawnharmsen</b></sub></a><br /><a href="#financial-shawnharmsen" title="Financial">💵</a></td>
 </tr>
 </table>
