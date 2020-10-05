@@ -22,7 +22,7 @@ Join our [Discord server](https://discord.gg/Svaav43) for collaboration & suppor
 
 Forked from [SubstrateKitties](https://github.com/shawntabrizi/substratekitties), the awesome [substrate](https://substrate.dev) tutorial.
 Substrate is a modular framework that enables you to create purpose-built blockchains by composing custom or pre-built components.
-It also includes smart-contract bricks offering a non-toy language, Rust.
+It also includes smart-contract bricks offering access to others languages, including Rust.
 
 Thanks goes to these **97 wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key))**:
 
