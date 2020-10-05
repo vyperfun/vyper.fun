@@ -34,6 +34,10 @@ Felicitaciones 🎉
 
 Has completado la Lección 2 y los entrenadores ya pueden batallar y capturar pokemones salvajes ⚔️
 
+¡Tweetea sobre ello para compartir tu asombrosa hazaña!
+
+[![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fvyper.fun%2F%23%2F2%2Fintroduction)](https://twitter.com/intent/tweet?hashtags=VyperFun&ref_src=twsrc%5Etfw&text=Acabo%20de%20completar%20la%20Leccion%202%3A%20Pelea%20y%20Captura%20Pok%C3%A9mons%20salvajes%20en%20la%20blockchain%20usando%20%40vyperlang%20en%20%40VyperFun%20%E2%9A%94%EF%B8%8F%20&tw_p=tweetbutton&url=https%3A%2F%2Fvyper.fun%2F%23%2F2%2Fintroduction)
+
 <!-- tabs:start -->
 
 #### ** Template **
