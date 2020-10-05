@@ -1,6 +1,6 @@
 # Capítulo 11: Juntándolo todo
 
-En el capítulo anterior, llamamos la función `battle` perteneciente al contrato del pokemon salvaje, desde el contrato del entrenador.
+En el capítulo anterior, llamamos a la función `battle` perteneciente al contrato del pokemon salvaje, desde el contrato del entrenador.
 
 Manejamos múltiples valores retornados por la función `battle` usando una tupla. Ahora usaremos las variables de la tupla para alterar el estado del contrato del entrenador.
 

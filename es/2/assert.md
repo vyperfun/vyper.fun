@@ -2,7 +2,7 @@
 
 En el capítulo anterior, agregamos la interfaz `WildPokemons` al contrato del entrenador. En los siguientes capítulos, empezaremos a escribir las funciones para pelear con los pokemones salvajes usando la función `battle` de la interfaz `WildPokemon`.
 
-En el contrato actual, cuando llamamos la función `createTrainer`, un nuevo entrenador es creado con un solo pokemon.
+En el contrato actual, cuando llamamos a la función `createTrainer`, un nuevo entrenador es creado con un solo pokemon.
 
 Ahora un entrenador debería ser capaz de usar su pokemon para batallar contra pokemones salvajes. Si el pokemon del entrenador gana, entonces el entrenador captura al pokemon salvaje. Si el pokemon del entrenador pierde, el entrenador no recibe nada.
 
