@@ -33,13 +33,13 @@ Também existe um tipo de dados `int128` (128 bits) para inteiros com sinal (um 
 DEZ: constant(uint256) = 10
 ```
 
-Neste exemplo de contrato, criamos uma `constante` `uint256` chamada `DEZ` e a definimos igual a `10`.
+Neste exemplo de contrato, criamos uma `constant` `uint256` chamada `DEZ` e a definimos igual a `10`.
 
 ## Coloca-lo a prova
 
 Nosso DNA de Pokémon será determinado por um número de 16 dígitos.
 
-Na área de codificação no lado direito, declare uma `constante` `uint256` chamada `DNA_DIGITS` e defina-a igual a `16`.
+Na área de codificação no lado direito, declare uma `constant` `uint256` chamada `DNA_DIGITS` e defina-a igual a `16`.
 
 <!-- tabs:start -->
 
