@@ -1,4 +1,4 @@
-<!-- Add translation for the following page: https://vyper.fun/#/1/contract_structure
+`<!-- Add translation for the following page: https://vyper.fun/#/1/contract_structure
 Do NOT change the code below. The below code runs the code editor -->
 
 # Chapitre 1 : Les contrats
@@ -11,8 +11,7 @@ Les contrats Vyper sont contenus dans des fichiers. Chaque fichier contient exac
 
 ## Version Pragma
 
-Vyper soutient un pragma de version pour garantir qu'un contrat ne soit
-compilé que par la version du compilateur prévue, ou une gamme de versions. L'identifant de version utilisent la syntaxe de style [NPM](https://docs.npmjs.com/misc/semver).
+Vyper prend en charge un pragma de version pour garantir qu'un contrat n'est compilé que par la version de compilateur ou la plage de versions prévue. Les chaînes de version utilisent la syntaxe de style [NPM](https://docs.npmjs.com/misc/semver).
 
 Dans le cadre de ce tutoriel, nous allons compiler nos contrats intelligents avec n'importe quelle version du compilateur comprise entre `0.2.0` (inclus) et `0.3.0` (exclus). Cela ressemble à ceci :
 
@@ -22,13 +21,13 @@ Dans le cadre de ce tutoriel, nous allons compiler nos contrats intelligents ave
 
 ## Faites le test
 
-1. Dans l'encart de droite, créons un contrat qui peut être compilé par n'importe quelle version du compilateur dans la gamme de `0.2.4` (inclus) à `0.3.0` (exclusif).
+1. Dans la zone de droite, créons un contrat qui peut être compilé par n'importe quelle version du compilateur dans la plage de `0.2.4` (inclus) à `0.3.0` (exclusif).
 
-2. Lorsque vous avez terminé, vous pouvez passer de l'onglet `🛠 Votre code` à l'onglet `✅ Solution` pour vérifier si votre réponse correspond à la solution **(Les onglets sont en bas à droite de l'écran)**.
+2. Lorsque vous avez terminé, vous pouvez passer de l'onglet `🛠 Your code` à l'onglet `✅ Solution` pour vérifier si votre réponse correspond à la solution **(Les onglets sont en bas à droite de l'écran)**.
 
-3. Vérifiez la différence entre `🛠 Votre code` et `✅ Solution` dans l'onglet `𝌡 Différence`.
+3. Vérifiez la différence entre `🛠 Your code` et `✅ Solution` dans l'onglet `𝌡 Difference`.
 
-4. Si vous avez des questions, cliquez simplement sur `Ouvrir le Chat` et posez-les dans le chat 😊
+4. Si vous avez des questions, cliquez simplement sur `Open Chat` et posez-les dans le chat 😊
 
 Félicitations 🎉
 
@@ -38,7 +37,7 @@ Vous venez de terminer le chapitre 1. Tweetez à ce sujet pour partager votre in
 
 <!-- tabs:start -->
 
-#### ** Modèle **
+#### ** Template **
 
 [embedded-code](../assets/1/1.1-template-code.vy ':include :type=code embed-template')
 
@@ -46,7 +45,7 @@ Vous venez de terminer le chapitre 1. Tweetez à ce sujet pour partager votre in
 
 [embedded-code-final](../assets/1/1.1-finished-code.vy ':include :type=code embed-final')
 
-#### ** Solution du chapitre précédent **
+#### ** Previous Chapter Solution **
 
 [embedded-code-previous](../assets/1/1.0-finished-code.vy ':include :type=code embed-previous')
 

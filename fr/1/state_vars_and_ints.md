@@ -3,7 +3,7 @@ Do NOT change the code below. The below code runs the code editor -->
 
 # Chapitre 2 : Variables d'état, entiers et constantes
 
-Excellent travail ! Maintenant que nous avons une environnement pour notre contrat, voyons comment Vyper traite les variables.
+Bon travail! Maintenant que nous avons un shell pour notre contrat, apprenons comment Vyper traite les variables.
 
 Les variables d'état sont stockées de façon permanente dans le stockage des contrats. Cela signifie qu'elles sont écrites dans la chaîne de bloc Ethereum. Imaginez-les comme si elles étaient écrites dans une base de données.
 
@@ -43,7 +43,7 @@ Dans la zone de codage sur le côté droit, déclarez une constante `uint256` no
 
 <!-- tabs:start -->
 
-#### ** Modèle **
+#### ** Template **
 
 [embedded-code](../assets/1/1.2-template-code.vy ':include :type=code embed-template')
 
@@ -51,7 +51,7 @@ Dans la zone de codage sur le côté droit, déclarez une constante `uint256` no
 
 [embedded-code-final](../assets/1/1.2-finished-code.vy ':include :type=code embed-final')
 
-#### ** Solution du chapitre précédent **
+#### ** Previous Chapter Solution **
 
 [embedded-code-previous](../assets/1/1.1-finished-code.vy ':include :type=code embed-previous')
 
