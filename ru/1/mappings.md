@@ -8,7 +8,7 @@ Do NOT change the code below. The below code runs the code editor -->
 
 Определение отображения выглядит так:
 
-```
+```vyper
 # Отображение для хранения номера списка и имен учащихся
 exampleMapping1: HashMap[uint256, String[64]]
 
