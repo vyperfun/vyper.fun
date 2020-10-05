@@ -21,15 +21,15 @@ Für dieses Tutorial verwenden wir eine Compilerversion zwischen `0.2.0` (inklus
 # @version >=0.2.0 <0.3.0
 ```
 
-## Übungsaufgaben
+## Stell es auf die Probe
 
 1. Erstelle in der Box rechts einen Contract, der mit einer Version zwischen `0.2.4` (inklusive) und `0.3.0` (exklusive) kompiliert werden kann.
 
-2. Wenn du fertig bist kannst du von `🛠 Dein Code` zum Reiter `✅ Lösung` wechseln, um deine Lösung mit dieser zu vergleichen. **(Tab-Reiter sind im rechten unteren Bereich des Bildschirms)**
+2. Wenn du fertig bist kannst du von `🛠 Yout code` zum Reiter `✅ Solution` wechseln, um deine Lösung mit dieser zu vergleichen. **(Tab-Reiter sind im rechten unteren Bereich des Bildschirms)**
 
-3. Nutze den `𝌡 Unterschiede` Reiter, um die Unterschiede zwischen `🛠 Dein Code` und `✅ Lösung` zu sehen.
+3. Nutze den `𝌡 Difference` Reiter, um die Unterschiede zwischen `🛠 Your code` und `✅ Solution` zu sehen.
 
-4. Wenn du Fragen hast, dann klicke auf `Öffne Chat` und stelle dort deine Frage 😊
+4. Wenn du Fragen hast, dann klicke auf `Open Chat` und stelle dort deine Frage 😊
 
 <!-- tabs:start -->
 
