@@ -3,7 +3,7 @@ Do NOT change the code below. The below code runs the code editor -->
 
 # Глава 6: Объявления функций
 Объявление функции в Vyper выглядит следующим образом:
-```
+```vyper
 @external
 def exampleFunction(name: String[64], age: uint256):
     pass
