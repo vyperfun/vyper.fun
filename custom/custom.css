@@ -13,22 +13,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.substrate-dev-hub-nav a {
-    display: flex;
-    text-decoration-line: none;
-}
-
-.substrate-dev-hub-nav img {
-    height: 34px;
-    margin: 10px 10px;
-}
-
-.substrate-dev-hub-nav h2 {
-    font-size: 1rem;
-    margin-top: 18px;
-    color: #c8c8c8;
-}
-
 .sidebar {
     background-color: #1b1b1b;
     font-size: 1rem;
