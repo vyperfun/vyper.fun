@@ -15,7 +15,6 @@
   - [Keccak256 and Typecasting](1/keccak256-and-typecasting.md)
   - [Putting It Together](1/putting_it_together.md)
   - [Events](1/events.md)
-  <!-- - [Glossary](https://substrate.dev/docs/overview/glossary) -->
 
 - [**#2 Catch'em all**](2/introduction.md)
 
@@ -33,4 +32,3 @@
 
 - [Gitcoin Grant](https://gitcoin.co/grants/1122/vyperfun)
 - [Report an Issue](https://github.com/dappkit/vyper.fun/issues)
-<!-- - [r/substrate](https://www.reddit.com/r/substrate) -->
