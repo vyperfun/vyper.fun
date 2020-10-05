@@ -22,7 +22,7 @@ uint256 x = 5 ** 2
 
 Para ter certeza de que o DNA do nosso Pokémon tem apenas 16 caracteres, vamos fazer outra `constant` `uint256` igual a `10 ^ 16`. Dessa forma, podemos usar posteriormente o operador de módulo `%` para encurtar um número inteiro para 16 dígitos.
 
-1. Crie uma `constante` `uint256` chamada` DNA_MODULUS` e defina-a igual a `10` com a potência de` DNA_DIGITS`.
+1. Crie uma `constant` `uint256` chamada` DNA_MODULUS` e defina-a igual a `10` com a potência de` DNA_DIGITS`.
 
 <!-- tabs:start -->
 
