@@ -24,7 +24,7 @@ Forked from [SubstrateKitties](https://github.com/shawntabrizi/substratekitties)
 Substrate is a modular framework that enables you to create purpose-built blockchains by composing custom or pre-built components.
 It also includes smart-contract bricks offering access to others languages, including Rust.
 
-Thanks goes to these **101 wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key))**:
+Thanks goes to these **104 wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key))**:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -171,5 +171,7 @@ Thanks goes to these **101 wonderful people ([emoji key](https://allcontributors
 <td align="center"><a href="https://github.com/mdb1"><img src="https://avatars.githubusercontent.com/mdb1" width="100px;" alt=""/><br /><sub><b>Manu Herrera</b></sub></a><br /><a href="#translation-mdb1" title="Translation">🌍</a></td>
 <td align="center"><a href="https://github.com/Lifeindeath"><img src="https://avatars.githubusercontent.com/Lifeindeath" width="100px;" alt=""/><br /><sub><b>Elena Sacchi</b></sub></a><br /><a href="#translation-Lifeindeath" title="Translation">🌍</a></td>
 <td align="center"><a href="https://github.com/MarcMogdanz"><img src="https://avatars.githubusercontent.com/MarcMogdanz" width="100px;" alt=""/><br /><sub><b>Marc Mogdanz</b></sub></a><br /><a href="#translation-MarcMogdanz" title="Translation">🌍</a></td>
+<td align="center"><a href="https://github.com/Omicron666"><img src="https://avatars.githubusercontent.com/Omicron666" width="100px;" alt=""/><br /><sub><b>Omicron</b></sub></a><br /><a href="#translation-Omicron666" title="Translation">🌍</a></td>
+<td align="center"><a href="https://github.com/m1ga"><img src="https://avatars.githubusercontent.com/m1ga" width="100px;" alt=""/><br /><sub><b>Michael Gangolf</b></sub></a><br /><a href="#translation-m1ga" title="Translation">🌍</a></td>
 </tr>
 </table>
