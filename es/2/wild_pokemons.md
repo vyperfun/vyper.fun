@@ -1,10 +1,10 @@
 # Capítulo 3: Pokemones salvajes
 
-Ahora tenemos entrenadores y sus pokemones. Como todo fan de Pokémon sabe los entrenadores salen de viaje y luchan contra pokemones salvajes. Si ellos ganan la batalla, ellos pueden atrapar al Pokémon.
+Ahora tenemos entrenadores y sus pokemones. Como todo fan de Pokémon sabe los entrenadores salen de viaje y luchan contra pokemones salvajes. Si ellos ganan la batalla, pueden atrapar al Pokémon.
 
 Creemos un nuevo contrato con el cual podamos luchar contra pokemones salvajes e intentar atraparlos.
 
-## Pongámoslo a prueba
+## Ponlo a prueba
 
 Reutilizaremos algunas partes de nuestro contrato anterior. Ahora, agreguemos algunas variables de estado.
 

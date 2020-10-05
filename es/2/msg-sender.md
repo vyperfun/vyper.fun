@@ -17,7 +17,7 @@ favoriteNumber: HashMap[address, uint256]
 
 @external
 def setMyNumber(myNumber: uint256):
-    # Actualiza nuestro `favoriteNumber` mapeo para almacenar `myNumber` en `msg.sender`
+    # Actualiza nuestro mapeo `favoriteNumber` almacenando el valor `myNumber` usando `msg.sender` como clave
     favoriteNumber[msg.sender] = myNumber
 
 @view
@@ -28,25 +28,25 @@ def whatIsMyNumber() -> uint256:
     return favoriteNumber[msg.sender]
 ```
 
-En este simple ejemplo, cualquiera podría llamar `setMyNumber` y almacenar un `uint256` en nuestro contrato, Que estaría asignado a su `address`. Entonces cuando llamen `whatIsMyNumber`, recibirán el `uint256` que esta almacenado.
+En este simple ejemplo, cualquiera podría llamar `setMyNumber` y almacenar un `uint256` en nuestro contrato, que estaría asignado a su `address`. Entonces cuando llamen `whatIsMyNumber`, recibirán el `uint256` que está almacenado.
 
-Usando `msg.sender` te brinda la seguridad de que en la cadena de bloques de Ethereum — la única manera de que alguien pueda modificar los datos de otra persona seria robando su clave privada asociada con su dirección de Ethereum.
+Usar `msg.sender` te brinda la seguridad de que en la cadena de bloques de Ethereum — la única manera de que alguien pueda modificar los datos de otra persona seria robando la clave privada asociada con su dirección de Ethereum.
 
-## Pongámoslo a prueba
+## Ponlo a prueba
 
-Necesitamos actualizar las funciones del contrato para que podamos crear un entrenador usando la estructura `Trainer` y el mapeo `trainerList`. Esta función también debería llamar la función `_createPokemon` para crear un Pokémon y luego usar el mapeo `trainerToPokemon` para asignar la propiedad de un Pokémon en un entrenador. Finalmente, incrementamos el contador `trainerPokemonCount`.
+Necesitamos actualizar las funciones del contrato para que podamos crear un entrenador usando la estructura `Trainer` y el mapping `trainerList`. Esta función también debería llamar a la función `_createPokemon` para crear un Pokémon y luego usar el mapeo `trainerToPokemon` para asignar dicho Pokémon al entrenador. Finalmente, incrementaremos el contador `trainerPokemonCount`.
 
 1. Crea un evento, `NewTrainerCreated` con la propiedad: `name` (`String[32]`).
 
-2. Crea una función `external` llamada `createTrainer` que toma 2 parametros: `trainerName` (`String[32]`) y `pokemonName` (`String[32]`).
+2. Crea una función `external` llamada `createTrainer` que tome 2 parametros: `trainerName` (`String[32]`) y `pokemonName` (`String[32]`).
 
-3. Dentro de cuerpo de la función `createTrainer`, llama a `_createPokemon` pasando `pokemonName` como el parámetro `_name`. Esto regresara un `Pokemon`. Crea una variable llamada `newPokemon` de tipo `Pokemon` y asigna a su valor el Pokémon que regreso `_createPokemon`.
+3. Dentro de cuerpo de la función `createTrainer`, llama a `_createPokemon` pasando `pokemonName` como el parámetro `_name`. Esta llamada devolverá un `Pokemon`. Crea una variable llamada `newPokemon` de tipo `Pokemon` y asigna a su valor el Pokémon que obtuviste llamando a `_createPokemon`.
 
-4. Dentro del cuerpo de la función `createTrainer`, crea un entrenador usando la estructura `Trainer` con el `name` como `trainerName`. Crea una variable `newTrainer` de tipo `Trainer` y asigna el valor del entrenador creado.
+4. Dentro del cuerpo de la función `createTrainer`, crea un entrenador usando la estructura `Trainer` con el `name` como `trainerName`. Crea una variable `newTrainer` de tipo `Trainer` y asígnale el entrenador creado.
 
-5. Agrega el nuevo entrenador al mapeo `trainerList` asignando `msg.sender` a `newTrainer`.
+5. Agrega el nuevo entrenador al mapeo `trainerList` asignando el valor `newTrainer` a la clave `msg.sender`.
 
-6. Agrega al nuevo entrenador y Pokémon al mapeo anidado `trainerToPokemon` agregando 2 claves: la primera como `msg.sender` y la segunda como `self.trainerPokemonCount[msg.sender]` (que actúa como una clave única para cada Pokémon de un entrenador). El valor asignado es `newPokemon`.
+6. Agrega al nuevo entrenador y al Pokémon al mapeo anidado `trainerToPokemon` agregando 2 claves: la primera como `msg.sender` y la segunda como `self.trainerPokemonCount[msg.sender]` (que actúa como una clave única para cada Pokémon de un entrenador). El valor asignado es `newPokemon`.
 
 7. Incrementa el contador `trainerPokemonCount` para nuestra dirección de entrenador `msg.sender` en `1`.
 

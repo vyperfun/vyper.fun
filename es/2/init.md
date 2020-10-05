@@ -4,7 +4,7 @@ Nuestro contrato creara pokemones aleatorios con los cuales puede luchar un entr
 
 Necesitamos una forma de almacenar una lista de nombres de pokemones una vez inicializamos nuestro contrato. Para ello utilizaremos la función **\_\_init\_\_**.
 
-## The \_\_init\_\_ Function
+## La función \_\_init\_\_
 
 **\_\_init\_\_** es una función de inicialización especial que solo se puede llamar al momento de implementar un contrato. Se puede utilizar para establecer valores iniciales para las variables de almacenamiento. Un caso común es establecer una variable de propietario con el creador del contrato:
 
@@ -18,7 +18,7 @@ def __init__():
 
 No puedes hacer llamadas a otro contrato en la función \_\_init\_\_.
 
-## Pongámoslo a prueba
+## Ponlo a prueba
 
 Vamos a agregar una lista de 20 pokemones en la función \_\_init\_\_.
 

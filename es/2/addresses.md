@@ -6,7 +6,7 @@ Para esto, necesitamos un nuevo tipo de dato: `address` (dirección).
 
 ## Direcciones
 
-La cadena de bloques de Ethereum está formada por **accounts**(cuentas), que puedes visualizar como una cuenta bancaria. Una cuenta tiene un saldo de **Ether** (la moneda usada en la cadena de bloques de Ethereum), donde puedes enviar y recibir pagos de Ethereum de otras cuentas, al igual que en una cuenta bancaria puede trasferir dinero a otras cuentas bancarias.
+La cadena de bloques de Ethereum está formada por **accounts**(cuentas), que puedes visualizarlas como análogas a cuentas bancarias. Una cuenta tiene un saldo de **Ether** (la moneda usada en la cadena de bloques de Ethereum), y puedes enviar y recibir pagos de Ethereum desde otras cuentas, al igual que una cuenta bancaria puede transferir dinero a otras cuentas bancarias.
 
 Cada cuenta tiene una `address`(dirección), como un número de cuenta bancaria. Esta dirección es única y su estructura es similar a la siguiente:
 
@@ -22,7 +22,7 @@ Por lo cual podemos usarla para identificar a cada entrenador. Cuando un usuario
 
 ## Mapeo anidado (nested mapping)
 
-Un mapeo anidado se ve como lo siguiente:
+Un mapeo anidado se ve de la siguiente manera:
 
 ```vyper
 # Asigna un profesor a una lista de estudiantes
@@ -33,17 +33,17 @@ def addStudent(teacherName: String[32], studentName: String[32], rollnumber: uin
     teacherToStudents[teacherName][rollnumber] = studentName
 ```
 
-El `teacherToStudents` asigna un maestro (`String[32]`) a otro sub-mapping que representa una lista de estudiantes. Esta lista de estudiantes asigna el número de lista de estudiante (`uint256`) a su nombre (`String[32]`).
+El mapping `teacherToStudents` asigna el nombre de un maestro (`String[32]`) a otro sub-mapping que representa una lista de estudiantes. Esta lista de estudiantes asigna el número del estudiante (`uint256`) a su nombre (`String[32]`).
 
-El `teacherToStudents` se puede completar agregando 2 claves: la primera para `String[32]` (`teacherName`) y la segunda para `uint256` (`rollnumber`). El valor asignado es un `String[32]` (`studentName`).
+El mapping `teacherToStudents` se puede completar agregando 2 claves: la primera para `String[32]` (`teacherName`) y la segunda para `uint256` (`rollnumber`). El valor asignado es un `String[32]` (`studentName`).
 
 ## Ponlo a prueba
 
-Primero, para crear un entrenador, necesitamos una estructura 'entrenador'. Luego para almacenar la asignación de un entrenador y su Pokémon, vamos a necesitar usar 3 mappings(mapeo).
+Primero, para crear un entrenador, necesitamos una estructura 'entrenador'. Luego para almacenar la asignación de un entrenador y su Pokémon, vamos a necesitar usar 3 mappings.
 
 1. Crea una estructura `Trainer` con la propiedad `name` (`String[32]`).
-2. Crea un mapeo(mapping),`trainerPokemonCount` con una clave de tipo `address` y un valor de tipo `uint256`.
-3. Crea un mapeo(mapping), `trainerList` con una clave de tipo `address` y un valor de tipo `Trainer`.
+2. Crea un mapping,`trainerPokemonCount` con una clave de tipo `address` y un valor de tipo `uint256`.
+3. Crea un mapping, `trainerList` con una clave de tipo `address` y un valor de tipo `Trainer`.
 4. Crea un mapeo anidado (nested mapping), `trainerToPokemon` con una clave de tipo `address` que se asigne a otro sub-mapeo. El sub-mapeo tiene una clave de tipo `uint256` y un valor de tipo `Pokemon`.
 
 <!-- tabs:start -->
