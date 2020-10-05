@@ -18,7 +18,7 @@ def applyForDriversLicense(String[32]: name, uint256: age):
     assert age < 18 , "no es elegible para una licencia de conducir"
 ```
 
-Aquí, si el parámetro `age` que recibe la función `applyForDriversLicense` is menor a `18`, entonces la transacción es revertida con el mensaje `"no es elegible para una licencia de conducir".
+Aquí, si el parámetro `age` que recibe la función `applyForDriversLicense` es menor a `18`, entonces la transacción es revertida con el mensaje `"no es elegible para una licencia de conducir".
 
 > NOTA: Si una transacción es revertida, cualquier cambio realizado al estado del contrato por la transacción será cancelado. En otras palabras, el estado del contrato va a ser restaurado al estado que tenía antes de que la transacción ocurriera.
 
