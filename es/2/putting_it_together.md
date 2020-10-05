@@ -24,7 +24,7 @@ Como discutimos, tenemos 2 condiciones basadas en la variable `battleResult`. Si
     - wins: `0`
   - Agrega este `newPokemon` al mapeo `pokemonList` usando la llave `totalPokemonCount`.
   - Incrementa `totalPokemonCount` por `1`.
-  - Agrega el `newPokemon` al mapeo `trainerToPokemon` usando como primera llave `msg.sender` y como segunda llave `trainerPokemonCount[msg.sender]`.
+  - Agrega el `newPokemon` al mapeo `trainerToPokemon` usando como primera clave `msg.sender` y como segunda clave `trainerPokemonCount[msg.sender]`.
   - Incrementa `trainerPokemonCount[msg.sender]` por `1` usando el operador aritmético `+=`.
   - Emite el evento `NewPokemonCreated` con los siguientes parámetros: `newPokemonName`, `newPokemonDNA` y `newPokemonHP`.
 

@@ -54,7 +54,7 @@ La función `battle` retorna los siguientes 4 argumentos:
 
 2. Define una variable de almacenamiento con `constant` `address` llamada `WILD_POKEMON` con el valor `0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e`.
 
-3. Dentro de `battleWildPokemon`, usa `WildPokemons` y `WILD_POKEMON` para llamar la función `battle` que recibe un solo parámetro de tipo `Pokemon`. Este parámetro puede ser obtenido usando el mapeo `trainerToPokemon` enviando las 2 llaves: `msg.sender` como la primera y `pokemonIndex` como la segunda.
+3. Dentro de `battleWildPokemon`, usa `WildPokemons` y `WILD_POKEMON` para llamar a la función `battle` que recibe un solo parámetro de tipo `Pokemon`. Este parámetro puede ser obtenido usando el mapeo `trainerToPokemon` enviando 2 claves: `msg.sender` como la primera y `pokemonIndex` como la segunda.
 
 4. Usa las variables de función creadas en el paso 1 para crear una tupla que sirva para capturar los múltiples valores a ser retornados.
 
