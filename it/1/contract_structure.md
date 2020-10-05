@@ -18,13 +18,13 @@ In questo tutorial compileremo i nostri contratti con un compilatore per version
 # @version >=0.2.0 <0.3.0
 ```
 
-## Adesso tocca a te
+## Mettilo alla prova
 
-1. Crea nel riquadro a fianco un contratto che possa essere compilato da compilatori per versioni dalla `0.2.4` (inclusa) alla `0.3.0` (esclusa).
+1. Nella casella a destra, creiamo un contratto che può essere compilato da qualsiasi versione del compilatore nell'intervallo da `0.2.4` (incluso) a `0.3.0` (esclusivo).
 
-2. Quando hai fatto, passa dalla scheda `🛠 Il tuo Codice` alla scheda `✅ Soluzione` per verificare se la tua risposta è corretta. **(Le schede si trovano in basso a destra)**.
+2. Quando hai fatto, passa dalla scheda `🛠 Your code` alla scheda `✅ Solution` per verificare se la tua risposta è corretta. **(Le schede si trovano in basso a destra)**.
 
-3. Controlla le differenze tra `🛠 Il tuo Codice` e `✅ Soluzione` nella scheda `𝌡 Differenze`.
+3. Controlla le differenze tra `🛠 Your code` e `✅ Solution` nella scheda `𝌡 Difference`.
 
 4. Se hai domande, apri `Apri Chat` e chiedi in chat 😊
 
