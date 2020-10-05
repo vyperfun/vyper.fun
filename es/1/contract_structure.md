@@ -29,6 +29,12 @@ Comprueba la diferencia entre `🛠 Tu codigo` y `✅ Solución` en la pestaña 
 
 Si tienes alguna pregunta, haz clic en `Abrir chat` y pregunta en el chat 😊
 
+Felicitaciones 🎉
+
+Acabas de completar el capítulo 1. ¡Tweetea sobre ello para compartir tu asombrosa hazaña!
+
+[![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fvyper.fun%2F%23%2F1%2Fcontract_structure)](https://twitter.com/intent/tweet?hashtags=VyperFun&ref_src=twsrc%5Etfw&text=Acabo%20de%20completar%20el%20capítulo%201%20de%20%40VyperFun%3A%20Crea%20tu%20Pok%C3%A9mon%20en%20la%20blockchain%20usando%20%40vyperlang%20%F0%9F%98%8E%20&tw_p=tweetbutton&url=https%3A%2F%2Fvyper.fun%2F%23%2F1%2Fcontract_structure)
+
 <!-- tabs:start -->
 
 #### ** Template **
