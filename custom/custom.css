@@ -1,49 +1,52 @@
-
 /* PARITY STYLING -- https://www.parity.io/assets/css/theme-parity.css?v=1c871864d6 */
 :root {
-    --theme-color: #FF1864;
+  --theme-color: #ff1864;
 }
 
 /* Make the whole site have larger text*/
 body {
-    background-color: #282828;
-    font-size: 1em;
-    line-height: 1.85714286em;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  background-color: #282828;
+  font-size: 1em;
+  line-height: 1.85714286em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .sidebar {
-    background-color: #1b1b1b;
-    font-size: 1rem;
-    width: 260px;
+  background-color: #1b1b1b;
+  font-size: 1rem;
+  width: 260px;
 }
 
-input[type="search"], 
+input[type='search'],
 .markdown-section pre,
 .markdown-section pre > code {
-    background-color: #1b1b1b;
+  background-color: #1b1b1b;
 }
 
-input[type="search"]:focus {
-    color: var(--theme-color);
+input[type='search']:focus {
+  color: var(--theme-color);
 }
 
 .sidebar-toggle {
-    width: unset;
+  width: unset;
 }
 
 .sidebar-toggle span {
-    width: 24px;
-    height: 4px;
+  width: 24px;
+  height: 4px;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'ManifoldCF', 'Helvetica', 'Arial', sans-serif;
-    font-weight: 600;
-    font-variant-ligatures: common-ligatures;
-    margin-top: 0;
-    margin-bottom: 0;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Hind', sans-serif;
+  font-weight: 600;
+  font-variant-ligatures: common-ligatures;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h1,
@@ -104,94 +107,94 @@ h6,
 
 /* CSS for editor div to make sure it uses the full height */
 .editor {
-    height: calc(100vh - 25px);
-    overflow: hidden;
+  height: calc(100vh - 25px);
+  overflow: hidden;
 }
 
 .editor-bar {
-    height: 25px;
-    font-size: 14px;
+  height: 25px;
+  font-size: 14px;
 }
 
 .editor-button {
-    background-color: #1e1e1e;
-    margin-left: 10px;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    padding-top: 50px;
-    margin-top: -50px;
+  background-color: #1e1e1e;
+  margin-left: 10px;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 
 .editor-button-selected {
-    background-color: #3e3e3e;
+  background-color: #3e3e3e;
 }
 
 /* Add separation between the Editor and the tutorial */
 .lesson {
-    border-right: 1px solid rgba(0,0,0,0.07);
-    padding-right: 10px;
-    padding-left: 30px;
+  border-right: 1px solid rgba(0, 0, 0, 0.07);
+  padding-right: 10px;
+  padding-left: 30px;
 }
 
 .code {
-    padding-right: 30px;
+  padding-right: 30px;
 }
 
 /* When the page does not have code, this style is used to hold the main content */
 .fullpage {
-    max-width: 1000px;
-    margin: auto;
-    padding: 30px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
 }
 
 /* Responsive Two Column Layout */
 /* Create two equal columns that floats next to each other */
 .column {
-    float: left;
-    width: 50%;
-    overflow-y: scroll;
-    height: 100vh;
+  float: left;
+  width: 50%;
+  overflow-y: scroll;
+  height: 100vh;
 }
 
 /* Clear floats after the columns */
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: '';
+  display: table;
+  clear: both;
 }
-  
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1024px) {
-    .column {
-        width: 100%;
-        overflow-y: initial;
-        height: initial;
-    }
+  .column {
+    width: 100%;
+    overflow-y: initial;
+    height: initial;
+  }
 }
 /* End Responsive Layout */
 
 .content {
-    padding-left: 10px;
-    padding-top: 0px;
-    left: 260px;
+  padding-left: 10px;
+  padding-top: 0px;
+  left: 260px;
 }
 
 .markdown-section {
-    max-width: 100%;
-    padding: 0;
+  max-width: 100%;
+  padding: 0;
 }
 
 /* Styling for Cover Page Buttons */
 
 section.cover .cover-main > p:last-child a:first-child {
-    background-color: var(--theme-color, #ea6f5a);
-    color: #fff;
+  background-color: var(--theme-color, #ea6f5a);
+  color: #fff;
 }
 
 section.cover .cover-main > p:last-child a:last-child {
-    background-color: unset;
-    color: var(--theme-color);
+  background-color: unset;
+  color: var(--theme-color);
 }
 
 /* End Styling for Cover Page Buttons */
@@ -204,11 +207,11 @@ section.cover .cover-main > p:last-child a:last-child {
 .markdown-section h4,
 .markdown-section strong,
 .markdown-section blockquote {
-    color: #989898;
+  color: #989898;
 }
 
 .markdown-section a {
-    font-weight: unset;
+  font-weight: unset;
 }
 
 /* End custom markdown styling */
@@ -216,35 +219,35 @@ section.cover .cover-main > p:last-child a:last-child {
 /* Custom Styling For Code Blocks */
 
 .token.function {
-    color: #dcdca9;
+  color: #dcdca9;
 }
 
 .token.keyword {
-    color: #569cd6;
+  color: #569cd6;
 }
 
 .markdown-section code {
-    background-color: #1b1b1b;
-    color: #d4d4d4;
+  background-color: #1b1b1b;
+  color: #d4d4d4;
 }
 .markdown-section pre > code {
-    color: #d4d4d4;
+  color: #d4d4d4;
 }
 
 .token.punctuation {
-    color: #d4d4d4;
+  color: #d4d4d4;
 }
 
 .token.comment {
-    color: #618a50;
+  color: #618a50;
 }
 
 .token.string {
-    color: #cd917a;
+  color: #cd917a;
 }
 
 .token.number {
-    color: #b6cda9;
+  color: #b6cda9;
 }
 
 /* End Custom Styling for Code Blocks */
@@ -252,10 +255,10 @@ section.cover .cover-main > p:last-child a:last-child {
 /* Start Custom Styling for Pagination */
 
 .pagination-item-label {
-    color: #FF1864;
-    font-size: 2.2em !important;
-    font-weight: 700;
-    padding-bottom: 0.5em;
+  color: #ff1864;
+  font-size: 2.2em !important;
+  font-weight: 700;
+  padding-bottom: 0.5em;
 }
 
 /* End Custm Styling for Pagination */
@@ -263,10 +266,10 @@ section.cover .cover-main > p:last-child a:last-child {
 /* Gitter */
 
 @media (max-width: 600px) {
-    .gitter-open-chat-button,
-    .gitter-chat-embed {
-        display: none;
-    }
+  .gitter-open-chat-button,
+  .gitter-chat-embed {
+    display: none;
+  }
 }
 
-/* End Gitter */ 
+/* End Gitter */
