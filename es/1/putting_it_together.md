@@ -5,23 +5,23 @@ Do NOT change the code below. The below code runs the code editor -->
  
 ¡Estamos cercas de terminar con nuestro generador aleatorio de Pokemon! Vamos a hacer unos cuantos cambios a la declaración para crear un Pokemon aleatorio.
 
-## Ponlo en la prueba
+## Ponlo a prueba
 
-1. El HP máximo de cualquier Pokemon debe ser menor de 1000. Define una constante nombrada `HP_LIMIT` igual a 1000.
+1. El HP máximo de cualquier Pokemon debe ser menor a 1000. Define una constante nombrada `HP_LIMIT` igual a 1000.
 
-2. Remueve los argumentos `_dna` y `_HP` de la función declarada `_createPokemon`.
+2. Remueve los argumentos `_dna` y `_HP` de la función `_createPokemon`.
 
-3. Dentro de `_createPokemon`. Llama la función `_generateRandomDNA` usando la variable `self` y pasa el argumento `_name`. Asignale el resultado igual a `RandomDNA`.
+3. Dentro de `_createPokemon`, llama a la función `_generateRandomDNA` usando la variable `self` y pasa el argumento `_name`. Asignale el resultado a la variable `RandomDNA`.
 
-4. Dentro de `_createPokemon`, crea una variable `uint256` llamada `randomHP`. Asignale el resultado igual a `randomDNA` modulo (`%`) `HP_LIMIT`.
+4. Dentro de `_createPokemon`, crea una variable `uint256` llamada `randomHP`. Asignale su valor igual al resultado de `randomDNA` modulo (`%`) `HP_LIMIT`.
 
-5. Dentro de `_createPokemon`, crea una variable `newPokemon` de tipo `Pokemon`. Usa el argumento `_name`, `randomDNA`, `randomHP` para definir el `newPokemon`.
+5. Dentro de `_createPokemon`, crea una variable `newPokemon` de tipo `Pokemon`. Usa los argumentos `_name`, `randomDNA`, `randomHP` para definir a `newPokemon`.
 
-6. Dentro de `_createPokemon`, llenar `pokemonList` usando la llave `totalPokemonCount` y el valor como `newPokemon`. Recuera usar la variable `self` para acceder a las variables almacenadas.
+6. Dentro de `_createPokemon`, inserta el valor `newPokemon` en el mapeo `pokemonList` usando  `totalPokemonCount` como clave. Recuerda usar la variable `self` para acceder a las variables almacenadas.
 
-7. Modifica la función `_createPokemon` así retornara un `Pokemon`.
+7. Modifica la función `_createPokemon` para que devuelva un `Pokemon`.
 
-8. Al final de la función `_createPokemon`, retorna `newPokemon`.
+8. Al final de la función `_createPokemon`, devuelve `newPokemon`.
 
 <!-- tabs:start -->
 
