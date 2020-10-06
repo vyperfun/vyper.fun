@@ -3,8 +3,8 @@ Do NOT change the code below. The below code runs the code editor -->
 
 # Capitulo 1: Keccak256 y Typecasting
 
-Queremos que nuestra función `_generateRandomDna` retorne un (semi) aleatorio `uint256`. ¿Cómo podemos realizar esto?
-Ethereum tiene la [Función Hash]([https://es.wikipedia.org/wiki/Función_hash]) `keccak256` incorporada, la cual es una versión de SHA3. Una función hash básicamente asigna una entrada a un número hexadecimal de 256-bits aleatorio. Un cambio ligero en la entrada causaría un gran cambio en el hash.
+Queremos que nuestra función `_generateRandomDna` retorne un `uint256` (semi) aleatorio. ¿Cómo podemos realizar esto?
+Ethereum incorpora la [Función Hash]([https://es.wikipedia.org/wiki/Función_hash]) `keccak256`, la cual es una versión de SHA3. Una función hash básicamente asigna una entrada a un número hexadecimal de 256-bits aleatorio. Un cambio ligero en la entrada causaría un gran cambio en el hash.
 Es útil para muchos propósitos en Ethereum, pero ahora mismo solo vamos a usarla para generar un número pseudo-aleatorio.
 Importante, `keccak256` espera un parámetro de tipo `bytes32`, `Bytes` o `String`.
 
@@ -18,7 +18,7 @@ keccak256("aaaac")
 ```
 Como puedes ver, los valores retornados son totalmente diferentes a pesar que solo se cambia un carácter en la entrada.
 
-	Nota: La generación de números random en blockchain es un problema muy difícil. Nuestro método aquí es inseguro, pero dado que la seguridad no es nuestra mayor prioridad para nuestro ADN Pokemon, Sera suficiente para nuestros propósitos.
+	Nota: La generación de números aleatorios en blockchain es un problema muy difícil. Nuestro método aquí es inseguro, pero dado que la seguridad no es nuestra mayor prioridad para el ADN de nuestro Pokemon, será suficiente para nuestros propósitos.
 
 ## Typecasting
 A veces necesitas convertir entre tipos de datos. Toma el siguiente ejemplo:
@@ -28,7 +28,7 @@ a: uint256 = 10
 b: int128 = 10
 
 # La siguiente operación retornará error
-# como a y b son tipos diferentes.
+# dado que a y b son de tipos diferentes.
 # Por lo tanto no puede ser un uint256
 C: int125 = a * b
 
@@ -38,15 +38,15 @@ C: int128 = convert(a, int128) * b
 ```
 Aquí mitigamos el error convirtiendo `a` de `uint256` a `int128`
 
-Todas las conversiones de tipos en Vyper deben ser explícitamente usando la función incorporada `convert(a: atype, btype)`. Aquí está la lista de [Conversión de tipos soportada](https://vyper.readthedocs.io/en/stable/types.html#type-conversions)
+Todas las conversiones de tipos en Vyper deben ser realizadas de forma explicita usando la función `convert(a: atype, btype)`. Aquí está la lista de [Conversión de tipos soportada](https://vyper.readthedocs.io/en/stable/types.html#type-conversions)
 
-## Ponlo en la prueba
+## Ponlo a prueba
 
 ¡Vamos a llenar el cuerpo de nuestra función `_generateRandomDna`!
-Aquí esta lo que debe hacer:
-1. Generar hash `keccak256` del argumento `_name`.
-2. Convertir este hash en un `uint256` y asígnale su valor a una variable `uint256` nombrada `random`.
-3. Queremos que nuestro ADN sea de solamente 16 dígitos (¿Recuerdas nuestro `DNA_MODULUS`?). Regresa módulo `random` (`%`) `DNA_MODULUS`. 
+Aquí esta lo que debes hacer:
+1. Genera un hash `keccak256` utilizando la variable `_name` como argumento de la función.
+2. Convierte ese hash en un `uint256` y asígnale su valor a una variable `uint256` de nombre `random`.
+3. Queremos que nuestro ADN sea solamente de 16 dígitos (¿Recuerdas nuestro `DNA_MODULUS`?). Retorna el módulo `random` (`%`) `DNA_MODULUS`. 
 
 <!-- tabs:start -->
 
