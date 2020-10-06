@@ -24,7 +24,7 @@ Forked from [SubstrateKitties](https://github.com/shawntabrizi/substratekitties)
 Substrate is a modular framework that enables you to create purpose-built blockchains by composing custom or pre-built components.
 It also includes smart-contract bricks offering access to others languages, including Rust.
 
-Thanks goes to these **107 wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key))**:
+Thanks goes to these **109 wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key))**:
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -178,6 +178,8 @@ Thanks goes to these **107 wonderful people ([emoji key](https://allcontributors
 <tr>
 <td align="center"><a href="https://github.com/JoseRivera12"><img src="https://avatars.githubusercontent.com/JoseRivera12" width="100px;" alt=""/><br /><sub><b>Jose Rivera</b></sub></a><br /><a href="#translation-JoseRivera12" title="Translation">🌍</a></td>
 <td align="center"><a href="https://github.com/Adeksi"><img src="https://avatars.githubusercontent.com/Adeksi" width="100px;" alt=""/><br /><sub><b>Shamil Uzdenov</b></sub></a><br /><a href="#translation-Adeksi" title="Translation">🌍</a></td>
+<td align="center"><a href="https://github.com/MarespTech"><img src="https://avatars.githubusercontent.com/v" width="100px;" alt=""/><br /><sub><b>Martin Espericueta</b></sub></a><br /><a href="#translation-MarespTech" title="Translation">🌍</a></td>
+<td align="center"><a href="https://github.com/cyvax"><img src="https://avatars.githubusercontent.com/cyvax" width="100px;" alt=""/><br /><sub><b>cyvax</b></sub></a><br /><a href="#translation-cyvax" title="Translation">🌍</a></td>
 </tr>
 
 </table>
