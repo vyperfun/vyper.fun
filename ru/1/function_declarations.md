@@ -2,12 +2,15 @@
 Do NOT change the code below. The below code runs the code editor -->
 
 # Глава 6: Объявления функций
+
 Объявление функции в Vyper выглядит следующим образом:
+
 ```vyper
 @external
 def exampleFunction(name: String[64], age: uint256):
     pass
 ```
+
 Это функция с именем `exampleFunction`, которая принимает 2 параметра: `String [64]` (имя) и `uint256` (возраст).
 
 Обратите внимание, что мы указываем видимость функции как внешнюю с помощью декоратора функции `@external`.
@@ -21,9 +24,9 @@ def exampleFunction(name: String[64], age: uint256):
 В нашем приложении мы собираемся создать несколько покемонов. Создадим для этого функцию.
 
 1. Создайте `внешнюю` функцию с именем `createPokemon`. Она должена принимать три параметра:
-    * name (a String[32])
-    * dna (a uint256)
-    * HP (a uint256)
+   - name (a `String[32]`)
+   - dna (a `uint256`)
+   - HP (a `uint256`)
 2. Используйте ключевое слово `pass`, чтобы определить пустое тело функции.
 
 <!-- tabs:start -->
