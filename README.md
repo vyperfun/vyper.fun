@@ -178,7 +178,7 @@ Thanks goes to these **109 wonderful people ([emoji key](https://allcontributors
 <tr>
 <td align="center"><a href="https://github.com/JoseRivera12"><img src="https://avatars.githubusercontent.com/JoseRivera12" width="100px;" alt=""/><br /><sub><b>Jose Rivera</b></sub></a><br /><a href="#translation-JoseRivera12" title="Translation">🌍</a></td>
 <td align="center"><a href="https://github.com/Adeksi"><img src="https://avatars.githubusercontent.com/Adeksi" width="100px;" alt=""/><br /><sub><b>Shamil Uzdenov</b></sub></a><br /><a href="#translation-Adeksi" title="Translation">🌍</a></td>
-<td align="center"><a href="https://github.com/MarespTech"><img src="https://avatars.githubusercontent.com/v" width="100px;" alt=""/><br /><sub><b>Martin Espericueta</b></sub></a><br /><a href="#translation-MarespTech" title="Translation">🌍</a></td>
+<td align="center"><a href="https://github.com/MarespTech"><img src="https://avatars.githubusercontent.com/MarespTech" width="100px;" alt=""/><br /><sub><b>Martin Espericueta</b></sub></a><br /><a href="#translation-MarespTech" title="Translation">🌍</a></td>
 <td align="center"><a href="https://github.com/cyvax"><img src="https://avatars.githubusercontent.com/cyvax" width="100px;" alt=""/><br /><sub><b>cyvax</b></sub></a><br /><a href="#translation-cyvax" title="Translation">🌍</a></td>
 </tr>
 
