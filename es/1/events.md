@@ -1,11 +1,11 @@
 <!-- Add translation for the following page: https://vyper.fun/#/1/events
 Do NOT change the code below. The below code runs the code editor -->
 
-# Capitulo 13: Eventos
+# Capítulo 13: Eventos
 
-¡Nuestra declaración está casi terminada! Ahora vamos a añadir un `evento`.
+¡Nuestro contrato está casi terminado! Ahora vamos a añadir un `evento`.
 
-**Eventos** son una manera para que tu declaración comunique que algo paso en la blockchain para tu aplicación front-end, la cual puede ser ‘escuchada’ por ciertos eventos y tomar acción cuando ocurren.
+Los **Eventos** son una manera para que tu contrato comunique que algo paso en la blockchain a tu aplicación front-end, la cual puede ‘escuchar’ por ciertos eventos y tomar acciones cuando estos ocurren.
 
 ### Ejemplo
 
@@ -25,7 +25,7 @@ Def addNewPerson(name: String[64], uint256, age: uint256):
 	Log NewPersonAdded(name, age)
 ```
 
-Tu aplicación front-end ahora podrá escuchar al evento. Una implementación de javascript se vería algo así:
+Tu aplicación front-end ahora podrá escuchar al evento. Una implementación de javascript se vería así:
 
 ```js
 YurContract.NewPersonAdded(function(error, result) {
@@ -33,11 +33,11 @@ YurContract.NewPersonAdded(function(error, result) {
 }
 ```
 
-# Ponlo en la prueba
+# Ponlo a prueba
 
-Queremos un evento que haga saber a nuestro front-end cada vez que un nuevo Pokemon sea creado, así la aplicación pueda mostrarlo.
+Queremos un evento que haga saber a nuestro front-end cada vez que un nuevo Pokemon es creado, así la aplicación podrá mostrarlo.
 
-1. Creamos un evento nombrado `NewPokemonCreated`. Debería tener 3 argumentos:
+1. Crea un evento llamado `NewPokemonCreated`. Debería tener 3 argumentos:
     - `name` de tipo `String[32]`
     - `dna` de tipo `uint256`
     - `HP` de tipo `uint256`
@@ -46,11 +46,11 @@ Queremos un evento que haga saber a nuestro front-end cada vez que un nuevo Poke
 
 Felicidades 🎉
 
-Haz completado la lección 1 de Vyper. Divirtiendose y ahora tienes el poder de crear nuevos Pokemon en el blockchain usando Vyper 🔥
+Haz completado la lección 1 de Vyper.fun y ahora tienes el poder de crear nuevos Pokemon en el blockchain usando Vyper 🔥
 
-¡Tweetealo para compartir asombrosa hazaña!
+¡Tweetea sobre ello para compartir tu asombrosa hazaña!!
 
-[![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fvyper.fun%2F%23%2F1%2Fintroduction)](https://twitter.com/intent/tweet?hashtags=VyperFun&ref_src=twsrc%5Etfw&text=I%20just%20completed%20Lesson%201%3A%20Create%20your%20Pok%C3%A9mon%20on%20blockchain%20using%20%40vyperlang%20at%20%40VyperFun%20%F0%9F%98%8E%20&tw_p=tweetbutton&url=https%3A%2F%2Fvyper.fun%2F%23%2F1%2Fintroduction)
+[![Tweet](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Fvyper.fun%2F%23%2F1%2Fintroduction)](https://twitter.com/intent/tweet?hashtags=VyperFun&ref_src=twsrc%5Etfw&text=Acabo%20de%20completar%20la%20leccion%201%3A%20Crea%20tu%20Pok%C3%A9mon%20en%20la%20blockchain%20usando%20%40vyperlang%20con%20%40VyperFun%20%F0%9F%98%8E%20&tw_p=tweetbutton&url=https%3A%2F%2Fvyper.fun%2F%23%2F1%2Fintroduction)
 
 <!-- tabs:start -->
 
