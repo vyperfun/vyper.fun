@@ -2,7 +2,7 @@
 
 We want our `_generateRandomDna` function to return a (semi) random `uint256`. How can we accomplish this?
 
-Ethereum has the [hash function](https://en.wikipedia.org/wiki/Hash_function) `keccak256` built in, which is a version of SHA3. A hash function basically maps an input into a random 256-bit hexadecimal number. A slight change in the input will cause a large change in the hash.
+Ethereum has the [hash function]([https://en.wikipedia.org/wiki/Hash_function]) `keccak256` built in, which is a version of SHA3. A hash function basically maps an input into a random 256-bit hexadecimal number. A slight change in the input will cause a large change in the hash.
 
 It's useful for many purposes in Ethereum, but for right now we're just going to use it for pseudo-random number generation.
 
