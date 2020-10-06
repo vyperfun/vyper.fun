@@ -2,8 +2,7 @@
 Do NOT change the code below. The below code runs the code editor -->
 # Chapitre 4: Structures
 
-
-Parfois, nous avons besoin d'un type de donnée plus complexe. Pour ça, Vyper fournit `structs`:
+Parfois, nous avons besoin d'un type de données plus complexes... Pour ça, Vyper fournit `structs`:
 
 ```vyper
 struct Person:
@@ -29,9 +28,9 @@ Prenons la structure `Person` comme exemple, `age` et `name` sont indentés à l
 
 Dans notre application, nous allons créer quelques pokémon! Et les Pokémon auront plusieurs propriétés, donc c'est un cas d'utilisation parfaite pour une structure.
 
-1. Creer une `struct` nommé `Pokemon`.
+1. Créer une `struct` nommé `Pokemon`.
 
-2. La structure de notre Pokémon doit avoir 5 propriété:
+2. La structure de notre Pokémon doit avoir 5 propriétés:
    - `name` (`String[32]`)
    - `dna` (`uint256`)
    - `HP` (`uint256`)
