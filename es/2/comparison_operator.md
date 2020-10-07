@@ -14,7 +14,7 @@ Los diferentes tipos admiten diferentes operadores de comparación. Para nuestro
 Aquí hay una lista de operadores de comparación soportados por el tipo `uint256`.
 
 | Operador | Descripción         |
-|----------|---------------------|
+| -------- | ------------------- |
 | x < y    | Menor que           |
 | x <= y   | Menor que o igual a |
 | x == y   | Es igual a          |
@@ -48,27 +48,27 @@ Compararemos el `HP` de los pokemons para decidir el ganador. Si el entrenador p
 
 1. Dentro de la función `battle`, incrementa el estado de la variable `battleCount` en 1.
 
-2. Crear una declaración `if` que compare el parámetro HP del `pokemon` entrenador  y el `randomHP` del pokemon salvaje. Si el HP del `pokemon` del entrenador  es mayor que el `randomHP`, entonces el `pokemon` del entrenador gana.
+2. Crear una declaración `if` que compare el parámetro HP del `pokemon` entrenador y el `randomHP` del pokemon salvaje. Si el HP del `pokemon` del entrenador es mayor que el `randomHP`, entonces el `pokemon` del entrenador gana.
 
 3. En el cuerpo de la declaración de `if`, retornar los siguientes argumentos:
 
-   * Resultado de la Batalla: `True`
-   * Nombre del Pokemon Salvaje: `randomName`
-   * DNA del Pokemon Salvaje: `randomDNA`
-   * HP del Pokemon Salvaje: `randomHP`
+   - Resultado de la Batalla: `True`
+   - Nombre del Pokemon Salvaje: `randomName`
+   - DNA del Pokemon Salvaje: `randomDNA`
+   - HP del Pokemon Salvaje: `randomHP`
 
 <!-- tabs:start -->
 
 #### ** Template **
 
-[embedded-code](../assets/2/2.6-template-code.vy ':include :type=code embed-template')
+[embedded-code](../../assets/2/2.6-template-code.vy ':include :type=code embed-template')
 
 #### ** Solution **
 
-[embedded-code-final](../assets/2/2.6-finished-code.vy ':include :type=code embed-final')
+[embedded-code-final](../../assets/2/2.6-finished-code.vy ':include :type=code embed-final')
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/2/2.5-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../../assets/2/2.5-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->

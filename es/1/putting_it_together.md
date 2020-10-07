@@ -2,7 +2,7 @@
 Do NOT change the code below. The below code runs the code editor -->
 
 # Capitulo 12: Poniéndolo junto
- 
+
 ¡Estamos cercas de terminar con nuestro generador aleatorio de Pokemon! Vamos a hacer unos cuantos cambios a la declaración para crear un Pokemon aleatorio.
 
 ## Ponlo a prueba
@@ -17,7 +17,7 @@ Do NOT change the code below. The below code runs the code editor -->
 
 5. Dentro de `_createPokemon`, crea una variable `newPokemon` de tipo `Pokemon`. Usa los argumentos `_name`, `randomDNA`, `randomHP` para definir a `newPokemon`.
 
-6. Dentro de `_createPokemon`, inserta el valor `newPokemon` en el mapeo `pokemonList` usando  `totalPokemonCount` como clave. Recuerda usar la variable `self` para acceder a las variables almacenadas.
+6. Dentro de `_createPokemon`, inserta el valor `newPokemon` en el mapeo `pokemonList` usando `totalPokemonCount` como clave. Recuerda usar la variable `self` para acceder a las variables almacenadas.
 
 7. Modifica la función `_createPokemon` para que devuelva un `Pokemon`.
 
@@ -27,14 +27,14 @@ Do NOT change the code below. The below code runs the code editor -->
 
 #### ** Template **
 
-[embedded-code](../assets/1/1.12-template-code.vy ':include :type=code embed-template')
+[embedded-code](../../assets/1/1.12-template-code.vy ':include :type=code embed-template')
 
 #### ** Solution **
 
-[embedded-code-final](../assets/1/1.12-finished-code.vy ':include :type=code embed-final')
+[embedded-code-final](../../assets/1/1.12-finished-code.vy ':include :type=code embed-final')
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/1/1.11-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../../assets/1/1.11-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->

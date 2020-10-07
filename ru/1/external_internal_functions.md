@@ -1,12 +1,14 @@
 <!-- Add translation for the following page: https://vyper.fun/#/1/external_internal_functions
 Do NOT change the code below. The below code runs the code editor -->
+
 ## Глава 8: Внешние / внутренние функции
+
 Как мы обсуждали в предыдущей главе, все функции должны включать один декоратор видимости (`@external` или `@internal`).
 
-| Декоратор | Описание |
-|-----------|:----------|
-|`@external`| Функция может быть вызвана только извне|
-|`@internal`| Функция может быть вызвана только в рамках текущего контракта|
+| Декоратор   | Описание                                                      |
+| ----------- | :------------------------------------------------------------ |
+| `@external` | Функция может быть вызвана только извне                       |
+| `@internal` | Функция может быть вызвана только в рамках текущего контракта |
 
 Мы хотели бы создать некоторые функции, которые не должны вызываться извне.
 Для таких функций мы будем использовать декоратор видимости `@internal`.
@@ -35,14 +37,14 @@ def _addPerson(_name: String[64], _age: uint256):
 
 #### ** Template **
 
-[embedded-code](../assets/1/1.8-template-code.vy ':include :type=code embed-template')
+[embedded-code](../../assets/1/1.8-template-code.vy ':include :type=code embed-template')
 
 #### ** Solution **
 
-[embedded-code-final](../assets/1/1.8-finished-code.vy ':include :type=code embed-final')
+[embedded-code-final](../../assets/1/1.8-finished-code.vy ':include :type=code embed-final')
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/1/1.7-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../../assets/1/1.7-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->

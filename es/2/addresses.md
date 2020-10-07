@@ -1,4 +1,4 @@
-# Capítulo 1: Direcciones   
+# Capítulo 1: Direcciones
 
 En el último capítulo creamos Pokemones. Pero sin entrenadores para poder entrenarlos, nuestro juego seria aburrido. Agreguemos entrenadores al juego. Cada entrenador tendrá un Pokémon por defecto.
 
@@ -50,14 +50,14 @@ Primero, para crear un entrenador, necesitamos una estructura 'entrenador'. Lueg
 
 #### ** Template **
 
-[embedded-code](../assets/2/2.1-template-code.vy ':include :type=code embed-template')
+[embedded-code](../../assets/2/2.1-template-code.vy ':include :type=code embed-template')
 
 #### ** Solution **
 
-[embedded-code-final](../assets/2/2.1-finished-code.vy ':include :type=code embed-final')
+[embedded-code-final](../../assets/2/2.1-finished-code.vy ':include :type=code embed-final')
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/1/1.12-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../../assets/1/1.12-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->

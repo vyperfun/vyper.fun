@@ -19,14 +19,14 @@ Es útil para inicializar nuevas variables de memoria.
 
 Aquí puedes encontrar una lista de todos los tipos y valores predeterminados:
 
-| Tipo     | Valor por defecto                                                           |
-|----------|-----------------------------------------------------------------------------|
-| address  | 0x0000000000000000000000000000000000000000                                  |
-| bool     | False                                                                       |
-| bytes32  | 0x0000000000000000000000000000000000000000000000000000000000000000          |
-| decimal  | 0.0                                                                         |
-| int128   | 1                                                                           |
-| uint256  | 1                                                                           |
+| Tipo    | Valor por defecto                                                  |
+| ------- | ------------------------------------------------------------------ |
+| address | 0x0000000000000000000000000000000000000000                         |
+| bool    | False                                                              |
+| bytes32 | 0x0000000000000000000000000000000000000000000000000000000000000000 |
+| decimal | 0.0                                                                |
+| int128  | 1                                                                  |
+| uint256 | 1                                                                  |
 
 ## Ponlo a prueba
 
@@ -34,23 +34,23 @@ Usaremos la función `empty` para retornar los valores por defecto en caso de qu
 
 1. Crea una declaración `else` que devuelva los siguientes valores:
 
-   * Resultado de la Batalla: `False`
-   * Nombre del pokemon salvaje: `empty(String[32])`
-   * DNA del pokemon salvaje: `empty(uint256)`
-   * HP del pokemon salvaje: `empty(uint256)`
+   - Resultado de la Batalla: `False`
+   - Nombre del pokemon salvaje: `empty(String[32])`
+   - DNA del pokemon salvaje: `empty(uint256)`
+   - HP del pokemon salvaje: `empty(uint256)`
 
 <!-- tabs:start -->
 
 #### ** Template **
 
-[embedded-code](../assets/2/2.7-template-code.vy ':include :type=code embed-template')
+[embedded-code](../../assets/2/2.7-template-code.vy ':include :type=code embed-template')
 
 #### ** Solution **
 
-[embedded-code-final](../assets/2/2.7-finished-code.vy ':include :type=code embed-final')
+[embedded-code-final](../../assets/2/2.7-finished-code.vy ':include :type=code embed-final')
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/2/2.6-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../../assets/2/2.6-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->

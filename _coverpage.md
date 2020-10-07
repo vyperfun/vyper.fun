@@ -2,9 +2,10 @@
 
 # Vyper Tutorials
 
-> Learn Vyper by building a Pokemon Game!
+> Learn Vyper by building a Pokémon Game!
 
 [Get Started](./WELCOME.md)
+[Empezar](./es/WELCOME.md)
 [GitHub](https://github.com/dappkit/vyper.fun)
 
 <!-- [开始吧](zh-cn/WELCOME.md)

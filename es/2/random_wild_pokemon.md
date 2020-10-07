@@ -36,14 +36,14 @@ Una función puede tambien retornar multiples valores de retorno como en el sigu
 
 #### ** Template **
 
-[embedded-code](../assets/2/2.5-template-code.vy ':include :type=code embed-template')
+[embedded-code](../../assets/2/2.5-template-code.vy ':include :type=code embed-template')
 
 #### ** Solution **
 
-[embedded-code-final](../assets/2/2.5-finished-code.vy ':include :type=code embed-final')
+[embedded-code-final](../../assets/2/2.5-finished-code.vy ':include :type=code embed-final')
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/2/2.4-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../../assets/2/2.4-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->

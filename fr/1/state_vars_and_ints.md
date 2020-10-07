@@ -45,14 +45,14 @@ Dans la zone de codage sur le côté droit, déclarez une constante `uint256` no
 
 #### ** Template **
 
-[embedded-code](../assets/1/1.2-template-code.vy ':include :type=code embed-template')
+[embedded-code](../../assets/1/1.2-template-code.vy ':include :type=code embed-template')
 
 #### ** Solution **
 
-[embedded-code-final](../assets/1/1.2-finished-code.vy ':include :type=code embed-final')
+[embedded-code-final](../../assets/1/1.2-finished-code.vy ':include :type=code embed-final')
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/1/1.1-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../../assets/1/1.1-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->

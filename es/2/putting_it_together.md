@@ -14,19 +14,19 @@ Como discutimos, tenemos 2 condiciones basadas en la variable `battleResult`. Si
 
 2. Si `battleResult` es `True`:
 
-  - Incrementa el número de `matches` para el pokemon del entrenador por `1` (utiliza el operador aritmético `+=` para mantener el código limpio). Para acceder al pokemon del entrenador, utiliza el mapeo `trainerToPokemon` con la primera llave `msg.sender` y la segunda llave `pokemonIndex`.
-  - Incrementa el número de `wins` para el pokemon del entrenador por `1` (utiliza el operador aritmético `+=` para mantener el código limpio).
-  - Crea una nueva variable llamada `newPokemon` de tipo `Pokemon` y asigna su valor a un nuevo Pokemon creado usando la estructura `Pokemon` y los siguientes parámetros:
-    - name: `newPokemonName`
-    - dna: `newPokemonDNA`
-    - HP: `newPokemonHP`
-    - matches: `1` (ya que el pokemon salvaje acaba de pelear)
-    - wins: `0`
-  - Agrega este `newPokemon` al mapeo `pokemonList` usando la llave `totalPokemonCount`.
-  - Incrementa `totalPokemonCount` por `1`.
-  - Agrega el `newPokemon` al mapeo `trainerToPokemon` usando como primera clave `msg.sender` y como segunda clave `trainerPokemonCount[msg.sender]`.
-  - Incrementa `trainerPokemonCount[msg.sender]` por `1` usando el operador aritmético `+=`.
-  - Emite el evento `NewPokemonCreated` con los siguientes parámetros: `newPokemonName`, `newPokemonDNA` y `newPokemonHP`.
+- Incrementa el número de `matches` para el pokemon del entrenador por `1` (utiliza el operador aritmético `+=` para mantener el código limpio). Para acceder al pokemon del entrenador, utiliza el mapeo `trainerToPokemon` con la primera llave `msg.sender` y la segunda llave `pokemonIndex`.
+- Incrementa el número de `wins` para el pokemon del entrenador por `1` (utiliza el operador aritmético `+=` para mantener el código limpio).
+- Crea una nueva variable llamada `newPokemon` de tipo `Pokemon` y asigna su valor a un nuevo Pokemon creado usando la estructura `Pokemon` y los siguientes parámetros:
+  - name: `newPokemonName`
+  - dna: `newPokemonDNA`
+  - HP: `newPokemonHP`
+  - matches: `1` (ya que el pokemon salvaje acaba de pelear)
+  - wins: `0`
+- Agrega este `newPokemon` al mapeo `pokemonList` usando la llave `totalPokemonCount`.
+- Incrementa `totalPokemonCount` por `1`.
+- Agrega el `newPokemon` al mapeo `trainerToPokemon` usando como primera clave `msg.sender` y como segunda clave `trainerPokemonCount[msg.sender]`.
+- Incrementa `trainerPokemonCount[msg.sender]` por `1` usando el operador aritmético `+=`.
+- Emite el evento `NewPokemonCreated` con los siguientes parámetros: `newPokemonName`, `newPokemonDNA` y `newPokemonHP`.
 
 3. Si `battleResult` es `False`, incrementa el número de `matches` para el pokemon del entrenador por `1` (utiliza el operador aritmético `+=` para mantener el código limpio).
 
@@ -42,14 +42,14 @@ Has completado la Lección 2 y los entrenadores ya pueden batallar y capturar po
 
 #### ** Template **
 
-[embedded-code](../assets/2/2.11-template-code.vy ':include :type=code embed-template')
+[embedded-code](../../assets/2/2.11-template-code.vy ':include :type=code embed-template')
 
 #### ** Solution **
 
-[embedded-code-final](../assets/2/2.11-finished-code.vy ':include :type=code embed-final')
+[embedded-code-final](../../assets/2/2.11-finished-code.vy ':include :type=code embed-final')
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/2/2.10-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../../assets/2/2.10-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->

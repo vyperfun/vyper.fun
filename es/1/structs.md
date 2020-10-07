@@ -38,17 +38,16 @@ En nuestra app, vamos a crear Pokemos! Y los Pokemons van a tener múltiples pro
    - `matches` (`uint256`)
    - `wins` (`uint256`)
 
-
 #### ** Template **
 
-[embedded-code](../assets/1/1.4-template-code.vy ':include :type=code embed-template')
+[embedded-code](../../assets/1/1.4-template-code.vy ':include :type=code embed-template')
 
 #### ** Solution **
 
-[embedded-code-final](../assets/1/1.4-finished-code.vy ':include :type=code embed-final')
+[embedded-code-final](../../assets/1/1.4-finished-code.vy ':include :type=code embed-final')
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/1/1.3-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../../assets/1/1.3-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->

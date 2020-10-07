@@ -29,14 +29,14 @@ Para almacenar nuestros Pokemos, vamos a necesitar un mapping que relacione un n
 
 #### ** Template **
 
-[embedded-code](../assets/1/1.5-template-code.vy ':include :type=code embed-template')
+[embedded-code](../../assets/1/1.5-template-code.vy ':include :type=code embed-template')
 
 #### ** Solution **
 
-[embedded-code-final](../assets/1/1.5-finished-code.vy ':include :type=code embed-final')
+[embedded-code-final](../../assets/1/1.5-finished-code.vy ':include :type=code embed-final')
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/1/1.4-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../../assets/1/1.4-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->

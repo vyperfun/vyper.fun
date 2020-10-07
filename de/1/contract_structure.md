@@ -35,14 +35,14 @@ Für dieses Tutorial verwenden wir eine Compilerversion zwischen `0.2.0` (inklus
 
 #### ** Template **
 
-[embedded-code](../assets/1/1.1-template-code.vy ':include :type=code embed-template')
+[embedded-code](../../assets/1/1.1-template-code.vy ':include :type=code embed-template')
 
 #### ** Solution **
 
-[embedded-code-final](../assets/1/1.1-finished-code.vy ':include :type=code embed-final')
+[embedded-code-final](../../assets/1/1.1-finished-code.vy ':include :type=code embed-final')
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/1/1.0-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../../assets/1/1.0-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->

@@ -38,9 +38,10 @@ YurContract.NewPersonAdded(function(error, result) {
 Queremos un evento que haga saber a nuestro front-end cada vez que un nuevo Pokemon es creado, así la aplicación podrá mostrarlo.
 
 1. Crea un evento llamado `NewPokemonCreated`. Debería tener 3 argumentos:
-    - `name` de tipo `String[32]`
-    - `dna` de tipo `uint256`
-    - `HP` de tipo `uint256`
+
+   - `name` de tipo `String[32]`
+   - `dna` de tipo `uint256`
+   - `HP` de tipo `uint256`
 
 2. Usar la palabra clave `log` para disparar el evento dentro de la función `_createPokemon` antes de la sentencia `return`.
 
@@ -56,14 +57,14 @@ Haz completado la lección 1 de Vyper.fun y ahora tienes el poder de crear nuevo
 
 #### ** Template **
 
-[embedded-code](../assets/1/1.13-template-code.vy ':include :type=code embed-template')
+[embedded-code](../../assets/1/1.13-template-code.vy ':include :type=code embed-template')
 
 #### ** Solution **
 
-[embedded-code-final](../assets/1/1.13-finished-code.vy ':include :type=code embed-final')
+[embedded-code-final](../../assets/1/1.13-finished-code.vy ':include :type=code embed-final')
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/1/1.12-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../../assets/1/1.12-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->

@@ -7,7 +7,7 @@ Começando com o básico absoluto:
 
 Um contrato é o bloco de construção fundamental das aplicações Ethereum - todas as variáveis ​​e funções pertencem a um contrato e este será o ponto de partida de todos os seus projetos.
 
-Os contratos Vyper estão contidos em arquivos. Cada arquivo contém exatamente 
+Os contratos Vyper estão contidos em arquivos. Cada arquivo contém exatamente
 um contrato.
 
 ## Versão Pragma
@@ -42,14 +42,14 @@ Você acabou de completar o Capítulo 1. Tweet sobre isso para compartilhar seu 
 
 #### ** Template **
 
-[embedded-code](../assets/1/1.1-template-code.vy ':include :type=code embed-template')
+[embedded-code](../../assets/1/1.1-template-code.vy ':include :type=code embed-template')
 
 #### ** Solution **
 
-[embedded-code-final](../assets/1/1.1-finished-code.vy ':include :type=code embed-final')
+[embedded-code-final](../../assets/1/1.1-finished-code.vy ':include :type=code embed-final')
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/1/1.0-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../../assets/1/1.0-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->

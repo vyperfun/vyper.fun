@@ -10,6 +10,7 @@ La declaración de una función en Vyper tiene el siguiente aspecto:
 def exampleFunction(name: String[64], age: uint256):
     pass
 ```
+
 Esta es una función llamada `exampleFunction` que toma 2 parámetros: un `String[64]` (`name`) y un `uint256` (`age`).
 
 Notar que estamos especificando la visibilidad de la función como externa usando el decorador de funciones `@external`.
@@ -34,14 +35,14 @@ En nuestra app, necesitaremos crear algunos Pokemons. Vamos a crear una función
 
 #### ** Template **
 
-[embedded-code](../assets/1/1.6-template-code.vy ':include :type=code embed-template')
+[embedded-code](../../assets/1/1.6-template-code.vy ':include :type=code embed-template')
 
 #### ** Solution **
 
-[embedded-code-final](../assets/1/1.6-finished-code.vy ':include :type=code embed-final')
+[embedded-code-final](../../assets/1/1.6-finished-code.vy ':include :type=code embed-final')
 
 #### ** Previous Chapter Solution **
 
-[embedded-code-previous](../assets/1/1.5-finished-code.vy ':include :type=code embed-previous')
+[embedded-code-previous](../../assets/1/1.5-finished-code.vy ':include :type=code embed-previous')
 
 <!-- tabs:end -->
