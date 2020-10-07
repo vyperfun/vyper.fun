@@ -6,6 +6,29 @@
 
 This is an [interactive tutorial website](https://vyper.fun) for learning Vyper while building games using smart contracts, similar to Cryptozombies.
 
+## Running tutorials locally
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/vyperfun/vyper.fun
+```
+
+2. Download and Install [Node.js](https://nodejs.org/).
+
+3. Install `docsify` globally.
+
+```bash
+// you may need to use sudo
+npm i docsify-cli -g
+```
+
+4. Run the tutorial locally.
+
+```bash
+docsify serve .
+```
+
 ## Contribution Guide
 
 ### We're constantly in need of volunteers to help translate vyper.fun!
