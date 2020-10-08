@@ -11,7 +11,7 @@ We need a way to store a list of pokemon names once when we initialize our contr
 ```vyper
 owner: address
 
-@internal
+@external
 def __init__():
     self.owner = msg.sender
 ```
@@ -24,7 +24,7 @@ We will add a list of 20 pokemons in the \_\_init\_\_ function.
 
 1. Define the \_\_init\_\_ function.
 
-2. Add `@internal` decorator to the \_\_init\_\_ function.
+2. Add `@external` decorator to the \_\_init\_\_ function.
 
 3. Add the following code in the \_\_init\_\_ function body:
 

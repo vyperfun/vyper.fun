@@ -16,7 +16,7 @@ battleCount: uint256
 
 pokemonNames: HashMap[uint256, String[32]]
 
-@internal
+@external
 def __init__():
     self.pokemonNames[0] = "Bulbasaur"
     self.pokemonNames[1] = "Charmander"

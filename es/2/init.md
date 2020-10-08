@@ -11,7 +11,7 @@ Necesitamos una forma de almacenar una lista de nombres de pokemones una vez ini
 ```vyper
 owner: address
 
-@internal
+@external
 def __init__():
     self.owner = msg.sender
 ```
@@ -24,7 +24,7 @@ Vamos a agregar una lista de 20 pokemones en la función \_\_init\_\_.
 
 1. Define la función \_\_init\_\_.
 
-2. Agrega el decorador `@internal` a la función \_\_init\_\_.
+2. Agrega el decorador `@external` a la función \_\_init\_\_.
 
 3. Agrega el siguiente código en el cuerpo de la función \_\_init\_\_:
 
