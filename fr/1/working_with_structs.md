@@ -59,7 +59,13 @@ def calculate(amount: uint256):
 
 Faisons en sorte que notre fonction `createPokemon` fasse quelque chose !
 
-1. Supprime le mot-clé `pass`. Remplis le corps de la fonction pour qu'elle crée un nouveau `Pokemon`, et l'ajoute au mappage `pokemonList`. Les variables `name`, `dna`, et `HP` de notre nouveau `Pokemon` doivent provenir des arguments de la fonction.
+1. Supprime le mot-clé `pass`. Remplis le corps de la fonction pour qu'elle crée un nouveau `Pokemon`, et l'ajoute au mappage `pokemonList`. Utilisez les valeurs suivantes pour notre nouveau `Pokemon`.
+
+   - `name`: nom (depuis les arguments de la fonction),
+   - `dna`: ADN (depuis les arguments de la fonction),
+   - `HP`: PV (depuis les arguments de la fonction),
+   - `matches`: 0,
+   - `wins`: 0
 
 2. Ne pas oublier d'utiliser la variable d'environnement `self` pour accéder au mappage `pokemonList`.
 
