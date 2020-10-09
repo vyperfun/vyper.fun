@@ -4,9 +4,9 @@ In [Chapter 8](https://vyper.fun/#/2/interfaces), we added `WildPokemons` interf
 
 If you recall from [Chapter 8](https://vyper.fun/#/2/interfaces), we need a contract address to interact with `WildPokemons`.
 
-We will learn how to deploy a contract to Ethereum blockchain and get the contract address in future lessons. For the purpose of this chapter, I have deployed the [`WildPokemons` contract to the Rinkeby Testnet](https://rinkeby.etherscan.io/address/0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e)
+We will learn how to deploy a contract to Ethereum blockchain and get the contract address in future lessons. For the purpose of this chapter, I have deployed the [`WildPokemons` contract to the Rinkeby Testnet](https://rinkeby.etherscan.io/address/0x66f4804E06007630e1aF0a7B0b279e6F27A3FdE5)
 
-Here is the contract address: [0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e](https://rinkeby.etherscan.io/address/0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e)
+Here is the contract address: [0x66f4804E06007630e1aF0a7B0b279e6F27A3FdE5](https://rinkeby.etherscan.io/address/0x66f4804E06007630e1aF0a7B0b279e6F27A3FdE5)
 
 Using the contract address and the interface, you can make external calls to the interface functions (which was discussed in depth in [Chapter 8](https://vyper.fun/#/2/interfaces)):
 
@@ -52,7 +52,7 @@ The `battle` function returns the following 4 arguments:
 
 1. Inside `battleWildPokemon`, define these 4 function variables and initialize them using the `empty` built-in function.
 
-2. Define a `constant` `address` storage variable named `WILD_POKEMON` having the value `0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e`.
+2. Define a `constant` `address` storage variable named `WILD_POKEMON` having the value `0x66f4804E06007630e1aF0a7B0b279e6F27A3FdE5`.
 
 3. Inside `battleWildPokemon`, use `WildPokemons` and `WILD_POKEMON` to call the `battle` function that takes a single parameter of type `Pokemon`. This parameter can be obtained using the `trainerToPokemon` mapping by passing the 2 keys: `msg.sender` as the first key and `pokemonIndex` as the second key.
 

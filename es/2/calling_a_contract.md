@@ -4,9 +4,9 @@ En el [Capítulo 8](https://vyper.fun/#/2/interfaces), agregamos la interfaz `Wi
 
 Si recuerdas el [Capítulo 8](https://vyper.fun/#/2/interfaces), necesitamos la dirección de un contrato para interactuar con `WildPokemons`.
 
-Aprenderemos como implementar un contrato en la blockchain de Ethereum y obtener la dirección del contrato en lecciones futuras. Para propósitos de este capítulo, he implementado el [contrato `WildPokemons` en la Rinkeby Testnet](https://rinkeby.etherscan.io/address/0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e)
+Aprenderemos como implementar un contrato en la blockchain de Ethereum y obtener la dirección del contrato en lecciones futuras. Para propósitos de este capítulo, he implementado el [contrato `WildPokemons` en la Rinkeby Testnet](https://rinkeby.etherscan.io/address/0x66f4804E06007630e1aF0a7B0b279e6F27A3FdE5)
 
-Aquí está la dirección del contrato: [0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e](https://rinkeby.etherscan.io/address/0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e)
+Aquí está la dirección del contrato: [0x66f4804E06007630e1aF0a7B0b279e6F27A3FdE5](https://rinkeby.etherscan.io/address/0x66f4804E06007630e1aF0a7B0b279e6F27A3FdE5)
 
 Usando la dirección del contrato y la interfaz, puedes hacer llamadas externas a las funciones de la interfaz (que fue discutida detalladamente en el [Capítulo 8](https://vyper.fun/#/2/interfaces)):
 
@@ -52,7 +52,7 @@ La función `battle` retorna los siguientes 4 argumentos:
 
 1. Dentro de `battleWildPokemon`, define estas 4 variables de función e inicialízalas usando la función incorporada `empty`.
 
-2. Define una variable de almacenamiento con `constant` `address` llamada `WILD_POKEMON` con el valor `0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e`.
+2. Define una variable de almacenamiento con `constant` `address` llamada `WILD_POKEMON` con el valor `0x66f4804E06007630e1aF0a7B0b279e6F27A3FdE5`.
 
 3. Dentro de `battleWildPokemon`, usa `WildPokemons` y `WILD_POKEMON` para llamar a la función `battle` que recibe un solo parámetro de tipo `Pokemon`. Este parámetro puede ser obtenido usando el mapeo `trainerToPokemon` enviando 2 claves: `msg.sender` como la primera y `pokemonIndex` como la segunda.
 

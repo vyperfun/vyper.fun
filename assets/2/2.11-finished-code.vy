@@ -3,7 +3,7 @@
 DNA_DIGITS: constant(uint256) = 16
 DNA_MODULUS: constant(uint256) = 10 ** DNA_DIGITS
 HP_LIMIT: constant(uint256) = 1000
-WILD_POKEMON: constant(address) = 0xC84a08B45CF0FC28EFC8caE8B7Fc1d062115048e
+WILD_POKEMON: constant(address) = 0x66f4804E06007630e1aF0a7B0b279e6F27A3FdE5
 
 struct Pokemon:
     name: String[32]
