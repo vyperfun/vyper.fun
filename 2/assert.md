@@ -15,7 +15,7 @@ You can also add an _optional_ error message.
 ```vyper
 @external
 def applyForDriversLicense(String[32]: name, uint256: age):
-    assert age < 18 , "not eligible for driver's license"
+    assert age >= 18 , "not eligible for driver's license"
 ```
 
 Here if `age` provided to the `applyForDriversLicense` function is less than `18` then the transaction gets reverted with the message `"not eligible for driver's license"`.
