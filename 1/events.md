@@ -44,7 +44,7 @@ We want an event to let our front-end know every time a new pokemon was created,
 
 Congratulations 🎉
 
-You have completed the Lesson 1 of Vyper.fun and now you have to power to create new Pokémons on blockchain using Vyper 🔥
+You have completed the Lesson 1 of Vyper.fun and now you have to power to create new Pokémons on the blockchain using Vyper 🔥
 
 Tweet about it to share your amazing feat!
 
