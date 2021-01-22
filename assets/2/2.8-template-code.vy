@@ -62,7 +62,6 @@ def _createPokemon(_name: String[32]) -> Pokemon:
 @external
 def createTrainer(trainerName: String[32], pokemonName: String[32]):
     
-    # create a pokemon
     newPokemon: Pokemon = self._createPokemon(pokemonName)
 
     newTrainer: Trainer = Trainer({
