@@ -6,7 +6,7 @@ We need a way to store a list of pokemon names once when we initialize our contr
 
 ## The \_\_init\_\_ Function
 
-**\_\_init\_\_** is a special initialization function that may only be called at the time of deploying a contract. It can be used to set initial values for storage variables. A common use case is to set an owner variable with the creator the contract:
+**\_\_init\_\_** is a special initialization function that may only be called at the time of deploying a contract. It can be used to set initial values for storage variables. A common use case is to set an owner variable with the creator of the contract:
 
 ```vyper
 owner: address
