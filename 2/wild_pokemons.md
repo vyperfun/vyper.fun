@@ -1,6 +1,6 @@
 # Chapter 3: Wild Pokemons
 
-We now have trainers and their pokemons. Every pokemon fan knows that trainers go on tours and and battle with wild pokemons. If they win the battle, they catch the pokemon.
+We now have trainers and their pokemons. Every pokemon fan knows that trainers go on tours and battle with wild pokemons. If they win the battle, they catch the pokemon.
 
 Let's create a new contract using which we can battle with wild pokemons and try to catch them.
 
