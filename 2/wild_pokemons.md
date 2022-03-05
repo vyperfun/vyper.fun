@@ -17,8 +17,8 @@ We will re-use some parts of our previous contract. Now, let's add some state va
 4. Make following changes to the `_generateRandomDNA` function:
 
    - Remove the `_name` input parameter so that `_generateRandomDNA` accepts no parameter.
-   - In the `_generateRandomDNA` body, replace `_name` with `battleCount`. Now, you may remember from [Lesson 1, Chapter 11](https://vyper.fun/#/1/keccak256-and-typecasting), that `keccak256` expects a single parameter of type `bytes32`, `Bytes` or `String`. So, we need to use `convert` to typecast `battleCount` to `bytes32`.
-   - You may remember from [Lesson 1, Chapter 10](https://vyper.fun/#/1/more_on_functions) that we add `@pure` decorator to a function which does not read contract state or environment variables. But now as `_generateRandomDNA` is accessing `battleCount` (a state variable), it is no longer a `@pure` function. So, remove the `@pure` function decorator.
+   - In the `_generateRandomDNA` body, replace `_name` with `battleCount`. Now, you may remember from [Lesson 1, Chapter 11](/#/1/keccak256-and-typecasting), that `keccak256` expects a single parameter of type `bytes32`, `Bytes` or `String`. So, we need to use `convert` to typecast `battleCount` to `bytes32`.
+   - You may remember from [Lesson 1, Chapter 10](/#/1/more_on_functions) that we add `@pure` decorator to a function which does not read contract state or environment variables. But now as `_generateRandomDNA` is accessing `battleCount` (a state variable), it is no longer a `@pure` function. So, remove the `@pure` function decorator.
 
 <!-- tabs:start -->
 

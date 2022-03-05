@@ -4,7 +4,7 @@
 
 > Learn Vyper by building a Pokémon Game!
 
-[Get Started](https://vyper.fun/lessons.html)
+[Get Started](/lessons.html)
 [Empezar](https://vyper.fun/en-lessons.html)
 [GitHub](https://github.com/dappkit/vyper.fun)
 

@@ -1,14 +1,14 @@
 # Chapter 10: Calling a Contract
 
-In [Chapter 8](https://vyper.fun/#/2/interfaces), we added `WildPokemons` interface in the trainer contract. In this chapter, we will call the `battle` function of the `WildPokemon` interface.
+In [Chapter 8](/#/2/interfaces), we added `WildPokemons` interface in the trainer contract. In this chapter, we will call the `battle` function of the `WildPokemon` interface.
 
-If you recall from [Chapter 8](https://vyper.fun/#/2/interfaces), we need a contract address to interact with `WildPokemons`.
+If you recall from [Chapter 8](/#/2/interfaces), we need a contract address to interact with `WildPokemons`.
 
 We will learn how to deploy a contract to Ethereum blockchain and get the contract address in future lessons. For the purpose of this chapter, I have deployed the [`WildPokemons` contract to the Rinkeby Testnet](https://rinkeby.etherscan.io/address/0x66f4804E06007630e1aF0a7B0b279e6F27A3FdE5)
 
 Here is the contract address: [0x66f4804E06007630e1aF0a7B0b279e6F27A3FdE5](https://rinkeby.etherscan.io/address/0x66f4804E06007630e1aF0a7B0b279e6F27A3FdE5)
 
-Using the contract address and the interface, you can make external calls to the interface functions (which was discussed in depth in [Chapter 8](https://vyper.fun/#/2/interfaces)):
+Using the contract address and the interface, you can make external calls to the interface functions (which was discussed in depth in [Chapter 8](/#/2/interfaces)):
 
 ```vyper
 interface Car:

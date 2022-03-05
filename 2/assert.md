@@ -38,7 +38,7 @@ To select a specific `Pokemon` of a trainer we need 2 things:
 
 - A `uint256` index that will choose a specific pokemon of the trainer.
 
-You may recall from [Chapter 2](https://vyper.fun/#/2/msg-sender) that you can get the address of the contract caller using `msg.sender`.
+You may recall from [Chapter 2](/#/2/msg-sender) that you can get the address of the contract caller using `msg.sender`.
 
 1. Create an `external` function named `battleWildPokemon` which takes a single parameter: `pokemonIndex` of `uint256` type.
 
