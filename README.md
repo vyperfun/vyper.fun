@@ -11,7 +11,7 @@ This is an [interactive tutorial website](https://vyper.fun) for learning Vyper 
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/vyperfun/vyper.fun
+git clone https://github.com/vyperlang/vyper.fun
 ```
 
 2. Download and Install [Node.js](https://nodejs.org/).
@@ -37,7 +37,7 @@ Given that Vyper.fun is a global project, we believe it's critical that Vyper.fu
 
 ### How to get involved
 
-Check out [contribution guide](https://github.com/vyperfun/vyper.fun/blob/master/CONTRIBUTION.md) for instructions on how to get started as a translator. Don't see your language listed? Please comment [here](https://github.com/vyperfun/vyper.fun/issues/6) & we'll help get you set up.
+Check out [contribution guide](https://github.com/vyperlang/vyper.fun/blob/master/CONTRIBUTION.md) for instructions on how to get started as a translator. Don't see your language listed? Please comment [here](https://github.com/vyperlang/vyper.fun/issues/6) & we'll help get you set up.
 
 Join our [Discord server](https://discord.gg/Svaav43) for collaboration & support.
 

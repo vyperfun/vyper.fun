@@ -31,4 +31,4 @@
   - [Juntándolo todo](es/2/putting_it_together.md)
 
 - [Beca Gitcoin](https://gitcoin.co/grants/112es/2/vyperfun)
-- [Reportar un problema](https://github.com/dappkit/vyper.fun/issues)
+- [Reportar un problema](https://github.com/vyperlang/vyper.fun/issues)

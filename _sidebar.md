@@ -31,4 +31,4 @@
   - [Putting It Together](2/putting_it_together.md)
 
 - [Gitcoin Grant](https://gitcoin.co/grants/1122/vyperfun)
-- [Report an Issue](https://github.com/dappkit/vyper.fun/issues)
+- [Report an Issue](https://github.com/vyperlang/vyper.fun/issues)

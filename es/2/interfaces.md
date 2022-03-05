@@ -60,7 +60,7 @@ La especificación de la anotación `payable` o `nonpayable` que una llamada rea
 
 ## Ponlo a prueba
 
-Dado que el area donde codificamos nuestros contratos sólo puede tener un archivo a la vez, hemos eliminado el contrato de batalla pokemon y añadido el contrato de entrenador. Puedes ver el contrato de batalla de pokemon [aquí](https://github.com/vyperfun/vyper.fun/blob/chapter1/assets/2/2.7-finished-code.vy).
+Dado que el area donde codificamos nuestros contratos sólo puede tener un archivo a la vez, hemos eliminado el contrato de batalla pokemon y añadido el contrato de entrenador. Puedes ver el contrato de batalla de pokemon [aquí](https://github.com/vyperlang/vyper.fun/blob/chapter1/assets/2/2.7-finished-code.vy).
 
 El contrato de batalla pokemon sólo tiene 1 función externa: `battle`
 

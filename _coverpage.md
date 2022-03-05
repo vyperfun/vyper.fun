@@ -6,7 +6,7 @@
 
 [Get Started](/lessons.html)
 [Empezar](https://vyper.fun/en-lessons.html)
-[GitHub](https://github.com/dappkit/vyper.fun)
+[GitHub](https://github.com/vyperlang/vyper.fun)
 
 <!-- [开始吧](zh-cn/WELCOME.md)
 [はじめる](ja-jp/WELCOME.md)
