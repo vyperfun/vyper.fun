@@ -1,6 +1,6 @@
 # Chapter 11: Keccak256 and Typecasting
 
-We want our `_generateRandomDna` function to return a (semi) random `uint256`. How can we accomplish this?
+We want our `_generateRandomDNA` function to return a (semi) random `uint256`. How can we accomplish this?
 
 Ethereum has the [hash function](https://en.wikipedia.org/wiki/Hash_function) `keccak256` built in, which is a version of SHA3. A hash function basically maps an input into a random 256-bit hexadecimal number. A slight change in the input will cause a large change in the hash.
 
@@ -46,7 +46,7 @@ All type conversions in Vyper must be made explicitly using the built-in `conver
 
 ## Put it to the test
 
-Let's fill in the body of our `_generateRandomDna` function! Here's what it should do:
+Let's fill in the body of our `_generateRandomDNA` function! Here's what it should do:
 
 1. Generate `keccak256` hash of the `_name` argument.
 2. Convert this hash into a `uint256` and assign its value to a `uint256` variable named `random`.
