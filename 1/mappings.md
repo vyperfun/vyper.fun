@@ -18,7 +18,7 @@ A mapping is essentially a key-value store for storing and looking up data. In t
 
 ## Put it to the test
 
-To store our Pokemons, we will need a mapping which maps an serial number to the Pokemon.
+To store our Pokemons, we will need a mapping which maps a serial number to the Pokemon.
 
 1. Create a mapping named `pokemonList` with a `uint256` type key and `Pokemon` type value.
 
