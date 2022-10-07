@@ -58,7 +58,7 @@ def calculate(amount: uint256):
 
 Let's make our `createPokemon` function do something!
 
-1. Remove the `pass` keyword. Fill in the function body so it creates a new `Pokemon`, and adds it to the `pokemonList` mapping. Use the following values for the new `Pokemon`:
+1. Remove the `pass` keyword. Fill in the function body so it creates a new `Pokemon`, and adds it to the `pokemonList` mapping with a key value of 0. Use the following values for the new `Pokemon`:
 
    - `name`: name (from function argument),
    - `dna`: dna (from function argument),
