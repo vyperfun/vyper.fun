@@ -4,7 +4,7 @@
 
 ## What is this?
 
-This is an [interactive tutorial website](https://vyper.fun) for learning Vyper while building games using smart contracts, similar to Cryptozombies.
+This is an [interactive tutorial website]( https://learn.vyperlang.org/#/) for learning Vyper while building games using smart contracts, similar to Cryptozombies.
 
 ## Running tutorials locally
 
