@@ -24,8 +24,8 @@ Here you can find a list of all types and default values:
 | bool    | False                                                              |
 | bytes32 | 0x0000000000000000000000000000000000000000000000000000000000000000 |
 | decimal | 0.0                                                                |
-| int128  | 1                                                                  |
-| uint256 | 1                                                                  |
+| int128  | 0                                                                  |
+| uint256 | 0                                                                  |
 
 ## Put it to the test
 

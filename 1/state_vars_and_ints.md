@@ -13,7 +13,7 @@ State variables are permanently stored in contract storage. This means they're w
 storedData: int128
 ```
 
-In this example contract, we created a [`int128`](https://vyper.readthedocs.io/en/stable/types.html#signed-integer-128-bit) called `storedData` which holds a _default_ value of `1`.
+In this example contract, we created a [`int128`](https://vyper.readthedocs.io/en/stable/types.html#signed-integer-128-bit) called `storedData` which holds a _default_ value of `0`.
 
 ## Unsigned Integers: `uint256`
 
