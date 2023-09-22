@@ -54,7 +54,7 @@ interface Car:
     def payForPetrol(): payable
 
 @external
-def test(some_address: address):
+def test(car_address: address):
     Car(car_address).calculateDoubleSpeed()  # cannot change storage
     Car(car_address).getSpeed()  # cannot change storage, but reads itself
     Car(car_address).increaseSpeed()  # storage can be altered
